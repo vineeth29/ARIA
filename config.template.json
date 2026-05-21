@@ -1,0 +1,9 @@
+{
+  "groq_api_key": "",
+  "cerebras_api_key": "",
+  "gemini_api_key": "",
+  "ollama_model": "llama3.1",
+  "ollama_url": "http://localhost:11434",
+  "preferred_provider": "auto",
+  "personality_mode": "default"
+}

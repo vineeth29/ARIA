@@ -1,0 +1,5688 @@
+{
+  "nodes": {
+    "heyy": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-14T16:43:13.181662"
+    },
+    "going": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "need": {
+      "count": 4,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "help": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "wanna": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "chat": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "heyy going": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-14T16:43:13.181662"
+    },
+    "going need": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-14T16:43:13.181662"
+    },
+    "need help": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "help wanna": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-14T16:43:13.181662"
+    },
+    "wanna chat": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:13.181662",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "haal": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "kaise": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "hain": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "guessing": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "speaking": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "hindi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "haal kaise": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "kaise hain": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "hain guessing": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "guessing speaking": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "speaking hindi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:19.036322",
+      "last": "2026-05-14T16:43:19.036322"
+    },
+    "chahiye": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:30.900921",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "aaap": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "mereko": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "aapka": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "pyaar": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "sunke": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "meri": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "heart": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "dhadak": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "rahi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "touched": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "affection": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "aaap chahiye": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "chahiye mereko": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "mereko aapka": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "aapka pyaar": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "pyaar sunke": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:43:49.635590",
+      "last": "2026-05-14T16:43:49.635590"
+    },
+    "seems": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "like": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "trying": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "build": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "romantic": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "relationship": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "flattered": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "afraid": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "language": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "model": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "feelings": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "emotions": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "mereko seems": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "seems like": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "like trying": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "trying build": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:44:11.570922",
+      "last": "2026-05-14T16:44:11.570922"
+    },
+    "design": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "perl": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "based": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "solution": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "manage": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "student": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "records": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "accept": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "names": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "marks": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "fixed": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "number": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "students": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "ensure": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "valid": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "design perl": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "perl based": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "based solution": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "solution manage": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "manage student": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T16:45:28.561985",
+      "last": "2026-05-14T16:45:28.561985"
+    },
+    "write": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "program": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "check": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "whether": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "given": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "string": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "identifier": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "starts": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "letter": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "underscore": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "followed": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "alphanumeric": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "characters": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "write perl": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "perl program": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "program check": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "check whether": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "whether given": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:09.748771",
+      "last": "2026-05-14T17:30:09.748771"
+    },
+    "interest": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "programming": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "previous": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "requests": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "designing": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "solutions": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "provide": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "comprehensive": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "overview": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "approach": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "perl given": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "given interest": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "interest perl": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "perl programming": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "programming previous": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-14T17:30:38.524510",
+      "last": "2026-05-14T17:30:38.524510"
+    },
+    "something": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:20.276415",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "help something": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:20.276415",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "something wanna": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:20.276415",
+      "last": "2026-05-16T20:12:43.984431"
+    },
+    "chesthunnav": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:27.157325"
+    },
+    "cheyyi": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "elaa": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:27.157325"
+    },
+    "unnav": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "chesthunnav cheyyi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:27.157325"
+    },
+    "cheyyi elaa": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:27.157325"
+    },
+    "elaa unnav": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:27.157325",
+      "last": "2026-05-16T02:28:27.157325"
+    },
+    "aela": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "chumma": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "great": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "life": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "aela unnav": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "unnav chumma": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "chumma cheyyi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "cheyyi haal": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "haal great": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:37.597338",
+      "last": "2026-05-16T02:28:37.597338"
+    },
+    "matladutunnav": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "matladu": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "kotta": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "undhi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "doing": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "fine": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "thank": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "aapne": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "yadi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "cheez": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "karvani": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "mere": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "paas": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "aapki": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "laptop": {
+      "count": 3,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "matladutunnav matladu": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "matladu kotta": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "kotta undhi": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "undhi doing": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "doing fine": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:28:50.208238",
+      "last": "2026-05-16T02:28:50.208238"
+    },
+    "whats": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "features": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "mera": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "control": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "wide": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "range": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "things": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "including": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "open": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "apps": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "want": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "whats features": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "features mera": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "mera features": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "features features": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "features control": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:22.969502",
+      "last": "2026-05-16T02:39:22.969502"
+    },
+    "gettting": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "heated": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "overheating": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "first": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "chalke": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "running": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "action": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "top_processes": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "dekho": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "laptop gettting": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "gettting heated": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "heated laptop": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "laptop overheating": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "overheating overheating": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T02:39:34.674997",
+      "last": "2026-05-16T02:39:34.674997"
+    },
+    "slow": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "yaar": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "relax": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "sort": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "intentionally": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "bogged": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "down": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "many": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "tasks": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "complex": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "conversations": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "once": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "slow yaar": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "yaar relax": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "relax sort": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "sort intentionally": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "intentionally slow": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:12:57.117531",
+      "last": "2026-05-16T20:12:57.117531"
+    },
+    "install": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "pillow": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "opencv": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "python": {
+      "count": 2,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "pyautogui": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "numpy": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "install_package": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "package": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "manager": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "install pillow": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "pillow opencv": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "opencv python": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "python pyautogui": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "pyautogui numpy": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:15:50.507982",
+      "last": "2026-05-16T20:15:50.507982"
+    },
+    "right": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "started": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "python want": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "want python": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "python right": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "right started": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    },
+    "started like": {
+      "count": 1,
+      "sources": [
+        "conversation"
+      ],
+      "tags": [],
+      "first": "2026-05-16T20:18:43.707752",
+      "last": "2026-05-16T20:18:43.707752"
+    }
+  },
+  "edges": [
+    {
+      "a": "heyy",
+      "b": "going",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "heyy",
+      "b": "need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "heyy",
+      "b": "help",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "going",
+      "b": "need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "going",
+      "b": "help",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "going",
+      "b": "wanna",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "need",
+      "b": "help",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "need",
+      "b": "wanna",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "need",
+      "b": "chat",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "help",
+      "b": "wanna",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "help",
+      "b": "chat",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "help",
+      "b": "heyy going",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "wanna",
+      "b": "chat",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "wanna",
+      "b": "heyy going",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "wanna",
+      "b": "going need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "chat",
+      "b": "heyy going",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "chat",
+      "b": "going need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "chat",
+      "b": "need help",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "heyy going",
+      "b": "going need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "heyy going",
+      "b": "need help",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "heyy going",
+      "b": "help wanna",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "going need",
+      "b": "need help",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "going need",
+      "b": "help wanna",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "going need",
+      "b": "wanna chat",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "need help",
+      "b": "help wanna",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "need help",
+      "b": "wanna chat",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "help wanna",
+      "b": "wanna chat",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:13.181662"
+    },
+    {
+      "a": "haal",
+      "b": "kaise",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "haal",
+      "b": "hain",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "haal",
+      "b": "guessing",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "kaise",
+      "b": "hain",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "kaise",
+      "b": "guessing",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "kaise",
+      "b": "speaking",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hain",
+      "b": "guessing",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hain",
+      "b": "speaking",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hain",
+      "b": "hindi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "guessing",
+      "b": "speaking",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "guessing",
+      "b": "hindi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "guessing",
+      "b": "haal kaise",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "speaking",
+      "b": "hindi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "speaking",
+      "b": "haal kaise",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "speaking",
+      "b": "kaise hain",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hindi",
+      "b": "haal kaise",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hindi",
+      "b": "kaise hain",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hindi",
+      "b": "hain guessing",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "haal kaise",
+      "b": "kaise hain",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "haal kaise",
+      "b": "hain guessing",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "haal kaise",
+      "b": "guessing speaking",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "kaise hain",
+      "b": "hain guessing",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "kaise hain",
+      "b": "guessing speaking",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "kaise hain",
+      "b": "speaking hindi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hain guessing",
+      "b": "guessing speaking",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "hain guessing",
+      "b": "speaking hindi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "guessing speaking",
+      "b": "speaking hindi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:19.036322"
+    },
+    {
+      "a": "aaap",
+      "b": "chahiye",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aaap",
+      "b": "mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aaap",
+      "b": "aapka",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye",
+      "b": "mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye",
+      "b": "aapka",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye",
+      "b": "pyaar",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "mereko",
+      "b": "aapka",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "mereko",
+      "b": "pyaar",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "mereko",
+      "b": "sunke",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aapka",
+      "b": "pyaar",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aapka",
+      "b": "sunke",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aapka",
+      "b": "meri",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "pyaar",
+      "b": "sunke",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "pyaar",
+      "b": "meri",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "pyaar",
+      "b": "heart",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "sunke",
+      "b": "meri",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "sunke",
+      "b": "heart",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "sunke",
+      "b": "dhadak",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "meri",
+      "b": "heart",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "meri",
+      "b": "dhadak",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "meri",
+      "b": "rahi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "heart",
+      "b": "dhadak",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "heart",
+      "b": "rahi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "heart",
+      "b": "touched",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "dhadak",
+      "b": "rahi",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "dhadak",
+      "b": "touched",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "dhadak",
+      "b": "affection",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "rahi",
+      "b": "touched",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "rahi",
+      "b": "affection",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "rahi",
+      "b": "need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "touched",
+      "b": "affection",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "touched",
+      "b": "need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "touched",
+      "b": "aaap chahiye",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "affection",
+      "b": "need",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "affection",
+      "b": "aaap chahiye",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "affection",
+      "b": "chahiye mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "need",
+      "b": "aaap chahiye",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "need",
+      "b": "chahiye mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "need",
+      "b": "mereko aapka",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aaap chahiye",
+      "b": "chahiye mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aaap chahiye",
+      "b": "mereko aapka",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aaap chahiye",
+      "b": "aapka pyaar",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye mereko",
+      "b": "mereko aapka",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye mereko",
+      "b": "aapka pyaar",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye mereko",
+      "b": "pyaar sunke",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "mereko aapka",
+      "b": "aapka pyaar",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "mereko aapka",
+      "b": "pyaar sunke",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "aapka pyaar",
+      "b": "pyaar sunke",
+      "source": "conversation",
+      "time": "2026-05-14T16:43:49.635590"
+    },
+    {
+      "a": "chahiye",
+      "b": "seems",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "chahiye",
+      "b": "like",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "mereko",
+      "b": "seems",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "mereko",
+      "b": "like",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "mereko",
+      "b": "trying",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "seems",
+      "b": "like",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "seems",
+      "b": "trying",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "seems",
+      "b": "build",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "like",
+      "b": "trying",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "like",
+      "b": "build",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "like",
+      "b": "romantic",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "trying",
+      "b": "build",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "trying",
+      "b": "romantic",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "trying",
+      "b": "relationship",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "build",
+      "b": "romantic",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "build",
+      "b": "relationship",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "build",
+      "b": "flattered",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "romantic",
+      "b": "relationship",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "romantic",
+      "b": "flattered",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "romantic",
+      "b": "afraid",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "relationship",
+      "b": "flattered",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "relationship",
+      "b": "afraid",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "relationship",
+      "b": "language",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "flattered",
+      "b": "afraid",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "flattered",
+      "b": "language",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "flattered",
+      "b": "model",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "afraid",
+      "b": "language",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "afraid",
+      "b": "model",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "afraid",
+      "b": "feelings",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "language",
+      "b": "model",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "language",
+      "b": "feelings",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "language",
+      "b": "emotions",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "model",
+      "b": "feelings",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "model",
+      "b": "emotions",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "model",
+      "b": "chahiye mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "feelings",
+      "b": "emotions",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "feelings",
+      "b": "chahiye mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "feelings",
+      "b": "mereko seems",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "emotions",
+      "b": "chahiye mereko",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "emotions",
+      "b": "mereko seems",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "emotions",
+      "b": "seems like",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "chahiye mereko",
+      "b": "mereko seems",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "chahiye mereko",
+      "b": "seems like",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "chahiye mereko",
+      "b": "like trying",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "mereko seems",
+      "b": "seems like",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "mereko seems",
+      "b": "like trying",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "mereko seems",
+      "b": "trying build",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "seems like",
+      "b": "like trying",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "seems like",
+      "b": "trying build",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "like trying",
+      "b": "trying build",
+      "source": "conversation",
+      "time": "2026-05-14T16:44:11.570922"
+    },
+    {
+      "a": "design",
+      "b": "perl",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "design",
+      "b": "based",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "design",
+      "b": "solution",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "perl",
+      "b": "based",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "perl",
+      "b": "solution",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "perl",
+      "b": "manage",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "based",
+      "b": "solution",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "based",
+      "b": "manage",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "based",
+      "b": "student",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "solution",
+      "b": "manage",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "solution",
+      "b": "student",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "solution",
+      "b": "records",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "manage",
+      "b": "student",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "manage",
+      "b": "records",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "manage",
+      "b": "accept",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "student",
+      "b": "records",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "student",
+      "b": "accept",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "student",
+      "b": "names",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "records",
+      "b": "accept",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "records",
+      "b": "names",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "records",
+      "b": "marks",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "accept",
+      "b": "names",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "accept",
+      "b": "marks",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "accept",
+      "b": "fixed",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "names",
+      "b": "marks",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "names",
+      "b": "fixed",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "names",
+      "b": "number",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "marks",
+      "b": "fixed",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "marks",
+      "b": "number",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "marks",
+      "b": "students",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "fixed",
+      "b": "number",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "fixed",
+      "b": "students",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "fixed",
+      "b": "ensure",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "number",
+      "b": "students",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "number",
+      "b": "ensure",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "number",
+      "b": "valid",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "students",
+      "b": "ensure",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "students",
+      "b": "valid",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "students",
+      "b": "design perl",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "ensure",
+      "b": "valid",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "ensure",
+      "b": "design perl",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "ensure",
+      "b": "perl based",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "valid",
+      "b": "design perl",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "valid",
+      "b": "perl based",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "valid",
+      "b": "based solution",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "design perl",
+      "b": "perl based",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "design perl",
+      "b": "based solution",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "design perl",
+      "b": "solution manage",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "perl based",
+      "b": "based solution",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "perl based",
+      "b": "solution manage",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "perl based",
+      "b": "manage student",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "based solution",
+      "b": "solution manage",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "based solution",
+      "b": "manage student",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "solution manage",
+      "b": "manage student",
+      "source": "conversation",
+      "time": "2026-05-14T16:45:28.561985"
+    },
+    {
+      "a": "write",
+      "b": "perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "write",
+      "b": "program",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "write",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl",
+      "b": "program",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl",
+      "b": "whether",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "program",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "program",
+      "b": "whether",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "program",
+      "b": "given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "check",
+      "b": "whether",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "check",
+      "b": "given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "check",
+      "b": "string",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "whether",
+      "b": "given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "whether",
+      "b": "string",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "whether",
+      "b": "valid",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "given",
+      "b": "string",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "given",
+      "b": "valid",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "given",
+      "b": "identifier",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "string",
+      "b": "valid",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "string",
+      "b": "identifier",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "string",
+      "b": "starts",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "valid",
+      "b": "identifier",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "valid",
+      "b": "starts",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "valid",
+      "b": "letter",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "identifier",
+      "b": "starts",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "identifier",
+      "b": "letter",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "identifier",
+      "b": "underscore",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "starts",
+      "b": "letter",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "starts",
+      "b": "underscore",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "starts",
+      "b": "followed",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "letter",
+      "b": "underscore",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "letter",
+      "b": "followed",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "letter",
+      "b": "alphanumeric",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "underscore",
+      "b": "followed",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "underscore",
+      "b": "alphanumeric",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "underscore",
+      "b": "characters",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "followed",
+      "b": "alphanumeric",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "followed",
+      "b": "characters",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "followed",
+      "b": "write perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "alphanumeric",
+      "b": "characters",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "alphanumeric",
+      "b": "write perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "alphanumeric",
+      "b": "perl program",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "characters",
+      "b": "write perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "characters",
+      "b": "perl program",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "characters",
+      "b": "program check",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "write perl",
+      "b": "perl program",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "write perl",
+      "b": "program check",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "write perl",
+      "b": "check whether",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl program",
+      "b": "program check",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl program",
+      "b": "check whether",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl program",
+      "b": "whether given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "program check",
+      "b": "check whether",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "program check",
+      "b": "whether given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "check whether",
+      "b": "whether given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:09.748771"
+    },
+    {
+      "a": "perl",
+      "b": "given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "perl",
+      "b": "interest",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "perl",
+      "b": "programming",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "given",
+      "b": "interest",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "given",
+      "b": "programming",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "given",
+      "b": "previous",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "interest",
+      "b": "programming",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "interest",
+      "b": "previous",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "interest",
+      "b": "requests",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "programming",
+      "b": "previous",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "programming",
+      "b": "requests",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "programming",
+      "b": "designing",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "previous",
+      "b": "requests",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "previous",
+      "b": "designing",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "previous",
+      "b": "based",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "requests",
+      "b": "designing",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "requests",
+      "b": "based",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "requests",
+      "b": "solutions",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "designing",
+      "b": "based",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "designing",
+      "b": "solutions",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "designing",
+      "b": "provide",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "based",
+      "b": "solutions",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "based",
+      "b": "provide",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "based",
+      "b": "comprehensive",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "solutions",
+      "b": "provide",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "solutions",
+      "b": "comprehensive",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "solutions",
+      "b": "overview",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "provide",
+      "b": "comprehensive",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "provide",
+      "b": "overview",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "provide",
+      "b": "approach",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "comprehensive",
+      "b": "overview",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "comprehensive",
+      "b": "approach",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "comprehensive",
+      "b": "perl given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "overview",
+      "b": "approach",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "overview",
+      "b": "perl given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "overview",
+      "b": "given interest",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "approach",
+      "b": "perl given",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "approach",
+      "b": "given interest",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "approach",
+      "b": "interest perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "perl given",
+      "b": "given interest",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "perl given",
+      "b": "interest perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "perl given",
+      "b": "perl programming",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "given interest",
+      "b": "interest perl",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "given interest",
+      "b": "perl programming",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "given interest",
+      "b": "programming previous",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "interest perl",
+      "b": "perl programming",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "interest perl",
+      "b": "programming previous",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "perl programming",
+      "b": "programming previous",
+      "source": "conversation",
+      "time": "2026-05-14T17:30:38.524510"
+    },
+    {
+      "a": "need",
+      "b": "something",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "help",
+      "b": "something",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "something",
+      "b": "wanna",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "something",
+      "b": "chat",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "something",
+      "b": "need help",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "wanna",
+      "b": "need help",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "wanna",
+      "b": "help something",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "chat",
+      "b": "help something",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "chat",
+      "b": "something wanna",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "need help",
+      "b": "help something",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "need help",
+      "b": "something wanna",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "help something",
+      "b": "something wanna",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "help something",
+      "b": "wanna chat",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "something wanna",
+      "b": "wanna chat",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:20.276415"
+    },
+    {
+      "a": "chesthunnav",
+      "b": "cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "chesthunnav",
+      "b": "elaa",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "chesthunnav",
+      "b": "unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "cheyyi",
+      "b": "elaa",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "cheyyi",
+      "b": "unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "cheyyi",
+      "b": "chesthunnav cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "elaa",
+      "b": "unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "elaa",
+      "b": "chesthunnav cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "elaa",
+      "b": "cheyyi elaa",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "unnav",
+      "b": "chesthunnav cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "unnav",
+      "b": "cheyyi elaa",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "unnav",
+      "b": "elaa unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "chesthunnav cheyyi",
+      "b": "cheyyi elaa",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "chesthunnav cheyyi",
+      "b": "elaa unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "cheyyi elaa",
+      "b": "elaa unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:27.157325"
+    },
+    {
+      "a": "aela",
+      "b": "unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "aela",
+      "b": "chumma",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "aela",
+      "b": "cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "unnav",
+      "b": "chumma",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "unnav",
+      "b": "haal",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "chumma",
+      "b": "cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "chumma",
+      "b": "haal",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "chumma",
+      "b": "great",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "cheyyi",
+      "b": "haal",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "cheyyi",
+      "b": "great",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "cheyyi",
+      "b": "life",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "haal",
+      "b": "great",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "haal",
+      "b": "life",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "haal",
+      "b": "aela unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "great",
+      "b": "life",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "great",
+      "b": "aela unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "great",
+      "b": "unnav chumma",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "life",
+      "b": "aela unnav",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "life",
+      "b": "unnav chumma",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "life",
+      "b": "chumma cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "aela unnav",
+      "b": "unnav chumma",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "aela unnav",
+      "b": "chumma cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "aela unnav",
+      "b": "cheyyi haal",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "unnav chumma",
+      "b": "chumma cheyyi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "unnav chumma",
+      "b": "cheyyi haal",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "unnav chumma",
+      "b": "haal great",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "chumma cheyyi",
+      "b": "cheyyi haal",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "chumma cheyyi",
+      "b": "haal great",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "cheyyi haal",
+      "b": "haal great",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:37.597338"
+    },
+    {
+      "a": "matladutunnav",
+      "b": "matladu",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladutunnav",
+      "b": "kotta",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladutunnav",
+      "b": "undhi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladu",
+      "b": "kotta",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladu",
+      "b": "undhi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladu",
+      "b": "doing",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "kotta",
+      "b": "undhi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "kotta",
+      "b": "doing",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "kotta",
+      "b": "fine",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "undhi",
+      "b": "doing",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "undhi",
+      "b": "fine",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "undhi",
+      "b": "thank",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "doing",
+      "b": "fine",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "doing",
+      "b": "thank",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "doing",
+      "b": "aapne",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "fine",
+      "b": "thank",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "fine",
+      "b": "aapne",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "fine",
+      "b": "yadi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "thank",
+      "b": "aapne",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "thank",
+      "b": "yadi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "thank",
+      "b": "cheez",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "aapne",
+      "b": "yadi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "aapne",
+      "b": "cheez",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "aapne",
+      "b": "karvani",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "yadi",
+      "b": "cheez",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "yadi",
+      "b": "karvani",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "yadi",
+      "b": "mere",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "cheez",
+      "b": "karvani",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "cheez",
+      "b": "mere",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "cheez",
+      "b": "paas",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "karvani",
+      "b": "mere",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "karvani",
+      "b": "paas",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "karvani",
+      "b": "aapki",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "mere",
+      "b": "paas",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "mere",
+      "b": "aapki",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "mere",
+      "b": "laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "paas",
+      "b": "aapki",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "paas",
+      "b": "laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "paas",
+      "b": "matladutunnav matladu",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "aapki",
+      "b": "laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "aapki",
+      "b": "matladutunnav matladu",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "aapki",
+      "b": "matladu kotta",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "laptop",
+      "b": "matladutunnav matladu",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "laptop",
+      "b": "matladu kotta",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "laptop",
+      "b": "kotta undhi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladutunnav matladu",
+      "b": "matladu kotta",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladutunnav matladu",
+      "b": "kotta undhi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladutunnav matladu",
+      "b": "undhi doing",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladu kotta",
+      "b": "kotta undhi",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladu kotta",
+      "b": "undhi doing",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "matladu kotta",
+      "b": "doing fine",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "kotta undhi",
+      "b": "undhi doing",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "kotta undhi",
+      "b": "doing fine",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "undhi doing",
+      "b": "doing fine",
+      "source": "conversation",
+      "time": "2026-05-16T02:28:50.208238"
+    },
+    {
+      "a": "whats",
+      "b": "features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "whats",
+      "b": "mera",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "whats",
+      "b": "control",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features",
+      "b": "mera",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features",
+      "b": "control",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features",
+      "b": "wide",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "mera",
+      "b": "control",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "mera",
+      "b": "wide",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "mera",
+      "b": "range",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "control",
+      "b": "wide",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "control",
+      "b": "range",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "control",
+      "b": "things",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "wide",
+      "b": "range",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "wide",
+      "b": "things",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "wide",
+      "b": "laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "range",
+      "b": "things",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "range",
+      "b": "laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "range",
+      "b": "including",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "things",
+      "b": "laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "things",
+      "b": "including",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "things",
+      "b": "open",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "laptop",
+      "b": "including",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "laptop",
+      "b": "open",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "laptop",
+      "b": "apps",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "including",
+      "b": "open",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "including",
+      "b": "apps",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "including",
+      "b": "want",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "open",
+      "b": "apps",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "open",
+      "b": "want",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "open",
+      "b": "whats features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "apps",
+      "b": "want",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "apps",
+      "b": "whats features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "apps",
+      "b": "features mera",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "want",
+      "b": "whats features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "want",
+      "b": "features mera",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "want",
+      "b": "mera features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "whats features",
+      "b": "features mera",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "whats features",
+      "b": "mera features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "whats features",
+      "b": "features features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features mera",
+      "b": "mera features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features mera",
+      "b": "features features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features mera",
+      "b": "features control",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "mera features",
+      "b": "features features",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "mera features",
+      "b": "features control",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "features features",
+      "b": "features control",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:22.969502"
+    },
+    {
+      "a": "laptop",
+      "b": "gettting",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "laptop",
+      "b": "heated",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "laptop",
+      "b": "overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "gettting",
+      "b": "heated",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "gettting",
+      "b": "overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "gettting",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "heated",
+      "b": "overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "heated",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "heated",
+      "b": "first",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "overheating",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "overheating",
+      "b": "first",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "overheating",
+      "b": "chalke",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "check",
+      "b": "first",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "check",
+      "b": "chalke",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "check",
+      "b": "paas",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "first",
+      "b": "chalke",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "first",
+      "b": "paas",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "first",
+      "b": "running",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "chalke",
+      "b": "paas",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "chalke",
+      "b": "running",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "chalke",
+      "b": "action",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "paas",
+      "b": "running",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "paas",
+      "b": "action",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "paas",
+      "b": "top_processes",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "running",
+      "b": "action",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "running",
+      "b": "top_processes",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "running",
+      "b": "dekho",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "action",
+      "b": "top_processes",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "action",
+      "b": "dekho",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "action",
+      "b": "laptop gettting",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "top_processes",
+      "b": "dekho",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "top_processes",
+      "b": "laptop gettting",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "top_processes",
+      "b": "gettting heated",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "dekho",
+      "b": "laptop gettting",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "dekho",
+      "b": "gettting heated",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "dekho",
+      "b": "heated laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "laptop gettting",
+      "b": "gettting heated",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "laptop gettting",
+      "b": "heated laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "laptop gettting",
+      "b": "laptop overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "gettting heated",
+      "b": "heated laptop",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "gettting heated",
+      "b": "laptop overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "gettting heated",
+      "b": "overheating overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "heated laptop",
+      "b": "laptop overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "heated laptop",
+      "b": "overheating overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "laptop overheating",
+      "b": "overheating overheating",
+      "source": "conversation",
+      "time": "2026-05-16T02:39:34.674997"
+    },
+    {
+      "a": "slow",
+      "b": "yaar",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "slow",
+      "b": "relax",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "slow",
+      "b": "sort",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "yaar",
+      "b": "relax",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "yaar",
+      "b": "sort",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "yaar",
+      "b": "intentionally",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "relax",
+      "b": "sort",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "relax",
+      "b": "intentionally",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "relax",
+      "b": "bogged",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "sort",
+      "b": "intentionally",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "sort",
+      "b": "bogged",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "sort",
+      "b": "down",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "intentionally",
+      "b": "bogged",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "intentionally",
+      "b": "down",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "intentionally",
+      "b": "many",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "bogged",
+      "b": "down",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "bogged",
+      "b": "many",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "bogged",
+      "b": "tasks",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "down",
+      "b": "many",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "down",
+      "b": "tasks",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "down",
+      "b": "complex",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "many",
+      "b": "tasks",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "many",
+      "b": "complex",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "many",
+      "b": "conversations",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "tasks",
+      "b": "complex",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "tasks",
+      "b": "conversations",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "tasks",
+      "b": "going",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "complex",
+      "b": "conversations",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "complex",
+      "b": "going",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "complex",
+      "b": "once",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "conversations",
+      "b": "going",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "conversations",
+      "b": "once",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "conversations",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "going",
+      "b": "once",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "going",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "going",
+      "b": "slow yaar",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "once",
+      "b": "check",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "once",
+      "b": "slow yaar",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "once",
+      "b": "yaar relax",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "check",
+      "b": "slow yaar",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "check",
+      "b": "yaar relax",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "check",
+      "b": "relax sort",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "slow yaar",
+      "b": "yaar relax",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "slow yaar",
+      "b": "relax sort",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "slow yaar",
+      "b": "sort intentionally",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "yaar relax",
+      "b": "relax sort",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "yaar relax",
+      "b": "sort intentionally",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "yaar relax",
+      "b": "intentionally slow",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "relax sort",
+      "b": "sort intentionally",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "relax sort",
+      "b": "intentionally slow",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "sort intentionally",
+      "b": "intentionally slow",
+      "source": "conversation",
+      "time": "2026-05-16T20:12:57.117531"
+    },
+    {
+      "a": "install",
+      "b": "pillow",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install",
+      "b": "opencv",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install",
+      "b": "python",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pillow",
+      "b": "opencv",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pillow",
+      "b": "python",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pillow",
+      "b": "pyautogui",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "opencv",
+      "b": "python",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "opencv",
+      "b": "pyautogui",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "opencv",
+      "b": "numpy",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "python",
+      "b": "pyautogui",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "python",
+      "b": "numpy",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "python",
+      "b": "action",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pyautogui",
+      "b": "numpy",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pyautogui",
+      "b": "action",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pyautogui",
+      "b": "install_package",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "numpy",
+      "b": "action",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "numpy",
+      "b": "install_package",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "numpy",
+      "b": "package",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "action",
+      "b": "install_package",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "action",
+      "b": "package",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "action",
+      "b": "manager",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install_package",
+      "b": "package",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install_package",
+      "b": "manager",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install_package",
+      "b": "install pillow",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "package",
+      "b": "manager",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "package",
+      "b": "install pillow",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "package",
+      "b": "pillow opencv",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "manager",
+      "b": "install pillow",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "manager",
+      "b": "pillow opencv",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "manager",
+      "b": "opencv python",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install pillow",
+      "b": "pillow opencv",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install pillow",
+      "b": "opencv python",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "install pillow",
+      "b": "python pyautogui",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pillow opencv",
+      "b": "opencv python",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pillow opencv",
+      "b": "python pyautogui",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "pillow opencv",
+      "b": "pyautogui numpy",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "opencv python",
+      "b": "python pyautogui",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "opencv python",
+      "b": "pyautogui numpy",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "python pyautogui",
+      "b": "pyautogui numpy",
+      "source": "conversation",
+      "time": "2026-05-16T20:15:50.507982"
+    },
+    {
+      "a": "python",
+      "b": "want",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python",
+      "b": "right",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python",
+      "b": "started",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "want",
+      "b": "right",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "want",
+      "b": "started",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "want",
+      "b": "like",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "right",
+      "b": "started",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "right",
+      "b": "like",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "right",
+      "b": "python want",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "started",
+      "b": "like",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "started",
+      "b": "python want",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "started",
+      "b": "want python",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "like",
+      "b": "python want",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "like",
+      "b": "want python",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "like",
+      "b": "python right",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python want",
+      "b": "want python",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python want",
+      "b": "python right",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python want",
+      "b": "right started",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "want python",
+      "b": "python right",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "want python",
+      "b": "right started",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "want python",
+      "b": "started like",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python right",
+      "b": "right started",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "python right",
+      "b": "started like",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    },
+    {
+      "a": "right started",
+      "b": "started like",
+      "source": "conversation",
+      "time": "2026-05-16T20:18:43.707752"
+    }
+  ],
+  "sources": [
+    "conversation"
+  ]
+}

@@ -1,0 +1,862 @@
+{
+  "sessions": [
+    {
+      "app": "Obsidian 1.12.7",
+      "duration": 30,
+      "timestamp": "2026-04-24 16:14",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 11,
+      "timestamp": "2026-04-24 16:14",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 30,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:16",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Task Manager",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:16",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Obsidian 1.12.7",
+      "duration": 80,
+      "timestamp": "2026-04-24 16:17",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Task Manager",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:17",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 30,
+      "timestamp": "2026-04-24 16:18",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "chrome",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:18",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 80,
+      "timestamp": "2026-04-24 16:19",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Task Manager",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:20",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Settings",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:20",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 40,
+      "timestamp": "2026-04-24 16:21",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:21",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 40,
+      "timestamp": "2026-04-24 16:21",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Obsidian 1.12.7",
+      "duration": 60,
+      "timestamp": "2026-04-24 16:22",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:23",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:23",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:12",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:13",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:13",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ChatGPT",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:13",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:14",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ChatGPT",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:14",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "file explorer",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:14",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "zen browser",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:14",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:14",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:15",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:15",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:15",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:15",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:16",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:16",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:16",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Group voice call",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:17",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:17",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:17",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:17",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:17",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:18",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:18",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:18",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:18",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:19",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:19",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:19",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:19",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:19",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:19",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:20",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:20",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:20",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:20",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:20",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:21",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:21",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:21",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:22",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:22",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:22",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:22",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:23",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:23",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:23",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 150,
+      "timestamp": "2026-05-16 20:26",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:26",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:26",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 60,
+      "timestamp": "2026-05-16 20:27",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:27",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:28",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:28",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:28",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:29",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 50,
+      "timestamp": "2026-05-16 20:29",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:30",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:30",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:31",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 110,
+      "timestamp": "2026-05-16 20:32",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:33",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:33",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:33",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:33",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:34",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Open",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:34",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "file explorer",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:34",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Brave",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:34",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "file explorer",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:35",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "vlc",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:35",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:35",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:35",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:36",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:36",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:36",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:36",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:37",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:37",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:37",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:38",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:38",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:38",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ChatGPT",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:39",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:39",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:39",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:39",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 70,
+      "timestamp": "2026-05-16 20:40",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:40",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 50,
+      "timestamp": "2026-05-16 20:41",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Notification Center",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:41",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 70,
+      "timestamp": "2026-05-16 20:43",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:43",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 70,
+      "timestamp": "2026-05-16 20:44",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:44",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:45",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:45",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Outlook",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:45",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:45",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:46",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:46",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:46",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:46",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:47",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:47",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:47",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:48",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:48",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Microsoft​ Edge",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:48",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:48",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:48",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:48",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:49",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Outlook",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:49",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:49",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "cmd",
+      "duration": 40,
+      "timestamp": "2026-05-16 20:50",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "ARIA Project Overview",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:50",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 20,
+      "timestamp": "2026-05-16 20:50",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "whatsapp",
+      "duration": 30,
+      "timestamp": "2026-05-16 20:51",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:51",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 50,
+      "timestamp": "2026-05-16 20:52",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "Task Switching",
+      "duration": 10,
+      "timestamp": "2026-05-16 20:52",
+      "date": "2026-05-16"
+    },
+    {
+      "app": "chrome",
+      "duration": 60,
+      "timestamp": "2026-05-16 20:53",
+      "date": "2026-05-16"
+    }
+  ]
+}

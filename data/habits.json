@@ -1,0 +1,76 @@
+{
+  "actions": [
+    {
+      "action": "**Key SAE J-2284-3 definitions:**",
+      "hour": 16,
+      "day": "Friday",
+      "date": "2026-04-24",
+      "time": "16:14"
+    },
+    {
+      "action": "open youtube in chrome",
+      "hour": 15,
+      "day": "Tuesday",
+      "date": "2026-04-28",
+      "time": "15:14"
+    },
+    {
+      "action": "hi",
+      "hour": 20,
+      "day": "Saturday",
+      "date": "2026-05-16",
+      "time": "20:12"
+    },
+    {
+      "action": "why are u so slow",
+      "hour": 20,
+      "day": "Saturday",
+      "date": "2026-05-16",
+      "time": "20:12"
+    },
+    {
+      "action": "pip install pillow mss opencv-python pyautogui numpy",
+      "hour": 20,
+      "day": "Saturday",
+      "date": "2026-05-16",
+      "time": "20:15"
+    },
+    {
+      "action": "pip install easyocr torch torchvision",
+      "hour": 20,
+      "day": "Saturday",
+      "date": "2026-05-16",
+      "time": "20:17"
+    },
+    {
+      "action": "python",
+      "hour": 20,
+      "day": "Saturday",
+      "date": "2026-05-16",
+      "time": "20:18"
+    }
+  ],
+  "patterns": {
+    "**key sae j-2284-3 definitions:**|hour:16": 1,
+    "**key sae j-2284-3 definitions:**|day:Friday": 1,
+    "**key sae j-2284-3 definitions:**|Friday|16": 1,
+    "open youtube in chrome|hour:15": 1,
+    "open youtube in chrome|day:Tuesday": 1,
+    "open youtube in chrome|Tuesday|15": 1,
+    "hi|hour:20": 1,
+    "hi|day:Saturday": 1,
+    "hi|Saturday|20": 1,
+    "why are u so slow|hour:20": 1,
+    "why are u so slow|day:Saturday": 1,
+    "why are u so slow|Saturday|20": 1,
+    "pip install pillow mss opencv-python pyautogui numpy|hour:20": 1,
+    "pip install pillow mss opencv-python pyautogui numpy|day:Saturday": 1,
+    "pip install pillow mss opencv-python pyautogui numpy|Saturday|20": 1,
+    "pip install easyocr torch torchvision|hour:20": 1,
+    "pip install easyocr torch torchvision|day:Saturday": 1,
+    "pip install easyocr torch torchvision|Saturday|20": 1,
+    "python|hour:20": 1,
+    "python|day:Saturday": 1,
+    "python|Saturday|20": 1
+  }
+}

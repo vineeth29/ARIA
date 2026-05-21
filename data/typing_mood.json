@@ -1,0 +1,110 @@
+[
+  {
+    "time": "2026-05-14T16:43:13.183665",
+    "mood": "tired",
+    "intensity": 4,
+    "messages": 1
+  },
+  {
+    "time": "2026-05-14T16:43:19.038398",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 2
+  },
+  {
+    "time": "2026-05-14T16:43:30.902944",
+    "mood": "tired",
+    "intensity": 4,
+    "messages": 3
+  },
+  {
+    "time": "2026-05-14T16:43:49.639591",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 4
+  },
+  {
+    "time": "2026-05-14T16:44:11.574943",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 5
+  },
+  {
+    "time": "2026-05-14T16:45:28.566980",
+    "mood": "focused",
+    "intensity": 7,
+    "messages": 6
+  },
+  {
+    "time": "2026-05-14T17:30:09.754456",
+    "mood": "focused",
+    "intensity": 7,
+    "messages": 7
+  },
+  {
+    "time": "2026-05-14T17:30:38.528602",
+    "mood": "focused",
+    "intensity": 7,
+    "messages": 8
+  },
+  {
+    "time": "2026-05-16T02:28:20.294972",
+    "mood": "tired",
+    "intensity": 4,
+    "messages": 1
+  },
+  {
+    "time": "2026-05-16T02:28:27.167522",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 2
+  },
+  {
+    "time": "2026-05-16T02:28:37.614846",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 3
+  },
+  {
+    "time": "2026-05-16T02:28:50.210285",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 4
+  },
+  {
+    "time": "2026-05-16T02:39:22.985133",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 5
+  },
+  {
+    "time": "2026-05-16T02:39:34.674997",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 6
+  },
+  {
+    "time": "2026-05-16T20:12:43.995574",
+    "mood": "tired",
+    "intensity": 4,
+    "messages": 1
+  },
+  {
+    "time": "2026-05-16T20:12:57.131547",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 2
+  },
+  {
+    "time": "2026-05-16T20:15:50.522002",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 3
+  },
+  {
+    "time": "2026-05-16T20:18:43.719497",
+    "mood": "neutral",
+    "intensity": 5,
+    "messages": 5
+  }
+]

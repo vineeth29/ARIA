@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "action": "**Key SAE J-2284-3 definitions:**",
+      "hour": 16,
+      "day": "Friday",
+      "date": "2026-04-24",
+      "time": "16:14"
+    },
+    {
+      "action": "open youtube in chrome",
+      "hour": 15,
+      "day": "Tuesday",
+      "date": "2026-04-28",
+      "time": "15:14"
+    }
+  ],
+  "patterns": {
+    "**key sae j-2284-3 definitions:**|hour:16": 1,
+    "**key sae j-2284-3 definitions:**|day:Friday": 1,
+    "**key sae j-2284-3 definitions:**|Friday|16": 1,
+    "open youtube in chrome|hour:15": 1,
+    "open youtube in chrome|day:Tuesday": 1,
+    "open youtube in chrome|Tuesday|15": 1
+  }
+}

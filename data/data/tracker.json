@@ -1,0 +1,130 @@
+{
+  "sessions": [
+    {
+      "app": "Obsidian 1.12.7",
+      "duration": 30,
+      "timestamp": "2026-04-24 16:14",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 11,
+      "timestamp": "2026-04-24 16:14",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 30,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:15",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:16",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Task Manager",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:16",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Obsidian 1.12.7",
+      "duration": 80,
+      "timestamp": "2026-04-24 16:17",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Task Manager",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:17",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 30,
+      "timestamp": "2026-04-24 16:18",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "chrome",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:18",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 80,
+      "timestamp": "2026-04-24 16:19",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Task Manager",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:20",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Settings",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:20",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 40,
+      "timestamp": "2026-04-24 16:21",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Search",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:21",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 40,
+      "timestamp": "2026-04-24 16:21",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "Obsidian 1.12.7",
+      "duration": 60,
+      "timestamp": "2026-04-24 16:22",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "cmd",
+      "duration": 10,
+      "timestamp": "2026-04-24 16:23",
+      "date": "2026-04-24"
+    },
+    {
+      "app": "zen browser",
+      "duration": 20,
+      "timestamp": "2026-04-24 16:23",
+      "date": "2026-04-24"
+    }
+  ]
+}

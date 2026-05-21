@@ -1,0 +1,65 @@
+{
+  "morning": {
+    "name": "morning",
+    "steps": [
+      "[ACTION: check_internet()]",
+      "[ACTION: battery_status()]",
+      "[ACTION: clear_temp()]",
+      "[ACTION: open_url(url=\"https://wttr.in\")]",
+      "[ACTION: open_app(name=\"spotify\")]"
+    ],
+    "trigger": "manual",
+    "schedule": null,
+    "created": "2026-05-03T21:10:17.156117",
+    "run_count": 0
+  },
+  "goodnight": {
+    "name": "goodnight",
+    "steps": [
+      "[ACTION: clear_temp()]",
+      "[ACTION: empty_recycle_bin()]",
+      "[ACTION: screenshot(filename=\"goodnight_screenshot.png\")]",
+      "[ACTION: lock_screen()]"
+    ],
+    "trigger": "manual",
+    "schedule": null,
+    "created": "2026-05-03T21:10:17.161582",
+    "run_count": 0
+  },
+  "work": {
+    "name": "work",
+    "steps": [
+      "[ACTION: open_app(name=\"vscode\")]",
+      "[ACTION: open_url(url=\"https://mail.google.com\")]",
+      "[ACTION: open_url(url=\"https://calendar.google.com\")]"
+    ],
+    "trigger": "manual",
+    "schedule": null,
+    "created": "2026-05-03T21:10:17.162584",
+    "run_count": 0
+  },
+  "study": {
+    "name": "study",
+    "steps": [
+      "[ACTION: open_app(name=\"notepad\")]",
+      "[ACTION: set_volume(level=\"30\")]",
+      "[ACTION: open_youtube(query=\"lofi study music\")]"
+    ],
+    "trigger": "manual",
+    "schedule": null,
+    "created": "2026-05-03T21:10:17.170581",
+    "run_count": 0
+  },
+  "cleanup": {
+    "name": "cleanup",
+    "steps": [
+      "[ACTION: clear_temp()]",
+      "[ACTION: empty_recycle_bin()]",
+      "[ACTION: disk_usage(drive=\"C:\")]"
+    ],
+    "trigger": "manual",
+    "schedule": null,
+    "created": "2026-05-03T21:10:17.171584",
+    "run_count": 0
+  }
+}

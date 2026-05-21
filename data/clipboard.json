@@ -1,0 +1,357 @@
+[
+  {
+    "text": "**Key SAE J-2284-3 definitions:**",
+    "timestamp": "2026-04-24 16:14:08",
+    "type": "text"
+  },
+  {
+    "text": "Device name\tDESKTOP-KBHCNPN\r\nProcessor\t11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz (2.30 GHz)\r\nInstalled RAM\t16.0 GB (15.7 GB usable)\r\nGraphics card\tNVIDIA GeForce RTX 3050 Laptop GPU (4 GB)\nIntel(R) UHD Graphics (128 MB)\r\nStorage\t214 GB of 477 GB used\r\nDevice ID\t13565417-3A64-44FE-9F10-167B555E7D95\r\nProduct ID\t00342-42605-62699-AAOEM\r\nSystem type\t64-bit operating system, x64-based processor\r\nPen and touch\tNo pen or touch input is available for this display",
+    "timestamp": "2026-04-24 16:20:27",
+    "type": "email"
+  },
+  {
+    "text": "wmic process get name,percentprocessortime /format:list | sort",
+    "timestamp": "2026-04-24 16:21:22",
+    "type": "text"
+  },
+  {
+    "text": "Microsoft Windows [Version 10.0.26200.8246]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Windows\\System32>wmic process get name,percentprocessortime /format:list | sort\r\nNode - DESKTOP-KBHCNPN\r\nERROR:\r\nDescription = Invalid query\r\n\r\n\r\n\r\n\r\nC:\\Windows\\System32>",
+    "timestamp": "2026-04-24 16:21:28",
+    "type": "text_block"
+  },
+  {
+    "text": "powershell \"Get-Process | Sort-Object CPU -Descending | Select-Object -First 15 Name, CPU, WorkingSet | Format-Table -AutoSize\"",
+    "timestamp": "2026-04-24 16:21:38",
+    "type": "text"
+  },
+  {
+    "text": "C:\\Windows\\System32>powershell \"Get-Process | Sort-Object CPU -Descending | Select-Object -First 15 Name, CPU, WorkingSet | Format-Table -AutoSize\"\r\n\r\nName                                      CPU WorkingSet\r\n----                                      --- ----------\r\nSystem                                 251.25     167936\r\nMsMpEng                                133.25  238444544\r\nDellSupportAssistRemedationService  121.34375  112660480\r\nmc-fw-host                         116.453125  262819840\r\nSearchIndexer                        68.78125   46911488\r\nsvchost                             65.890625   39321600\r\nTaskmgr                               63.1875  193347584\r\nzen                                 55.984375  645599232\r\nzen                                    53.625  179564544\r\ndwm                                  48.78125  176775168\r\nSupportAssistAgent                   39.15625  364789760\r\nzen                                 34.890625  359079936\r\nCrossDeviceService                   34.90625  193945600\r\nexplorer                              34.3125  333402112\r\nchrome                              32.265625  323616768\r\n\r\n\r\n\r\nC:\\Windows\\System32>",
+    "timestamp": "2026-04-24 16:23:02",
+    "type": "text_block"
+  },
+  {
+    "text": "taskkill /F /IM MsMpEng.exe & taskkill /F /IM mc-fw-host.exe & taskkill /F /IM SupportAssistAgent.exe & taskkill /F /IM DellSupportAssistRemedationService.exe & taskkill /F /IM SearchIndexer.exe",
+    "timestamp": "2026-04-24 16:23:20",
+    "type": "text"
+  },
+  {
+    "text": "1 402 015 102",
+    "timestamp": "2026-04-28 15:14:20",
+    "type": "phone"
+  },
+  {
+    "text": "ARIA  —  Offline AI Agent                                                                       16 May 2026  20:12\r\n════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════\r\n\r\n  ╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\r\n  ║ ARIA v10.0  —  Personal AI Agent                                                                                   ║\r\n  ║                                                                                                                    ║\r\n  ║ Hey vinn!                                                                                                          ║\r\n  ║                                                                                                                    ║\r\n  ║ Providers ready  : 4/4                                                                                             ║\r\n  ║ Personality      : 🤖 Default                                                                                       ║\r\n  ║                                                                                                                    ║\r\n  ║ CPU 4%  RAM 2.0/15.7GB  Battery 16%                                                                                ║\r\n  ║                                                                                                                    ║\r\n  ║ Type naturally or /help for commands                                                                               ║\r\n  ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\r\n\r\n You  20:12 ›\r\n You  20:12 ›\r\n You  20:12 ›\r\n You  20:12 ›\r\n You  20:12 › hi\r\n\r\n ARIA  20:12\r\n     hey, need help with something or just wanna chat?\r\n\r\n You  20:12 › why are u so slow\r\n\r\n ARIA  20:12\r\n     yaar relax, let's sort this out! I'm not intentionally slow, but I can get bogged down i",
+    "timestamp": "2026-05-16 20:13:24",
+    "type": "text_block"
+  },
+  {
+    "text": "ARIA  —  Offline AI Agent                                                                       16 May 2026  20:12\r\n════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════\r\n\r\n  ╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗\r\n  ║ ARIA v10.0  —  Personal AI Agent                                                                                   ║\r\n  ║                                                                                                                    ║\r\n  ║ Hey vinn!                                                                                                          ║\r\n  ║                                                                                                                    ║\r\n  ║ Providers ready  : 4/4                                                                                             ║\r\n  ║ Personality      : 🤖 Default                                                                                       ║\r\n  ║                                                                                                                    ║\r\n  ║ CPU 4%  RAM 2.0/15.7GB  Battery 16%                                                                                ║\r\n  ║                                                                                                                    ║\r\n  ║ Type naturally or /help for commands                                                                               ║\r\n  ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝\r\n\r\n You  20:12 ›\r\n You  20:12 ›\r\n You  20:12 ›\r\n You  20:12 ›\r\n You  20:12 › hi\r\n\r\n ARIA  20:12\r\n     hey, need help with something or just wanna chat?\r\n\r\n You  20:12 › why are u so slow\r\n\r\n ARIA  20:12\r\n     yaar relax, let's sort this out! I'm not intentionally slow, but I can get bogged down i",
+    "timestamp": "2026-05-16 20:14:42",
+    "type": "text_block"
+  },
+  {
+    "text": "pip install pillow mss opencv-python pyautogui numpy",
+    "timestamp": "2026-05-16 20:15:44",
+    "type": "text"
+  },
+  {
+    "text": "zen.exe                                0.0    386.9\r\n  chrome.exe                             0.0    292.9\r\n You  20:12 › can u see my screen\r\n  Reading your screen...\r\n\r\n ARIA  20:13\r\n     Couldn't read the screen. Vision provider unavailable.\r\n\r\n You  20:13 › pip install pillow mss opencv-python pyautogui numpy\r\n\r\n ARIA  20:15\r\n     [ACTION: install_package(package=\"pillow\" manager=\"pip\")]\r\n     [ACTION: install_package(package=\"mss\" manager=\"pip\")]\r\n     [ACTION: install_package(package=\"opencv-python\" manager=\"pip\")]\r\n     [ACTION: install_package(package=\"pyautogui\" manager=\"pip\")]\r\n     [ACTION: install_package(package=\"numpy\" manager=\"pip\")]\r\n\r\n     Installing the required packages... Done. Is this what you wanted?\r\n\r\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\r\n[notice] To update, run: python.exe -m pip install --upgrade pip\r\n  Installed: pillow via pip\r\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\r\n[notice] To update, run: python.exe -m pip install --upgrade pip\r\n  Installed: mss via pip\r\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\r\n[notice] To update, run: python.exe -m pip install --upgrade pip\r\n  Installed: opencv-python via pip\r\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\r\n[notice] To update, run: python.exe -m pip install --upgrade pip\r\n  Installed: pyautogui via pip\r\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\r\n[notice] To update, run: python.exe -m pip install --upgrade pip\r\n  Installed: numpy via pip\r\n  ⚠  🟡 RAM at 90.2% — heaviest app: msedgewebview2.exe (697MB). Want me to kill it?\r\n You  20:16 › can u read my screen now\r\n  Reading your screen...\r\n\r\n ARIA  20:16\r\n     Couldn't read the screen. Vision provider unavailable.\r\n\r\n You  20:16 ›",
+    "timestamp": "2026-05-16 20:16:34",
+    "type": "text_block"
+  },
+  {
+    "text": "pip install easyocr torch torchvision",
+    "timestamp": "2026-05-16 20:17:34",
+    "type": "text"
+  },
+  {
+    "text": "You  20:16 › pip install easyocr torch torchvision\r\n  Found: Screenshot 2026-05-16 031041.png\r\n\r\n ARIA  20:17\r\n     Couldn't analyze that image. Try: analyze C:\\Users\\vinee\\pic.jpg\r\n\r\n You  20:17 ›",
+    "timestamp": "2026-05-16 20:17:42",
+    "type": "text"
+  },
+  {
+    "text": "python",
+    "timestamp": "2026-05-16 20:18:38",
+    "type": "text"
+  },
+  {
+    "text": "You  20:17 › python\r\n\r\n ARIA  20:18\r\n     You want to run python, right? Let's get started. What would you like to do in python?\r\n\r\n You  20:18 ›",
+    "timestamp": "2026-05-16 20:18:56",
+    "type": "text"
+  },
+  {
+    "text": "python",
+    "timestamp": "2026-05-16 20:19:52",
+    "type": "text"
+  },
+  {
+    "text": "import easyocr\r\n\r\nreader = easyocr.Reader(['en'])\r\n\r\nresult = reader.readtext(r\"Screenshot 2026-05-16 031041.png\", detail=0)\r\n\r\nprint(result)",
+    "timestamp": "2026-05-16 20:19:56",
+    "type": "text"
+  },
+  {
+    "text": "Microsoft Windows [Version 10.0.26200.8457]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\vinee>python\r\nPython 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)] on win32\r\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\r\n>>> import easyocr\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nModuleNotFoundError: No module named 'easyocr'\r\n>>>\r\n>>> reader = easyocr.Reader(['en'])\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'easyocr' is not defined\r\n>>>\r\n>>> result = reader.readtext(r\"Screenshot 2026-05-16 031041.png\", detail=0)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'reader' is not defined\r\n>>>\r\n>>> print(result)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'result' is not defined\r\n>>>",
+    "timestamp": "2026-05-16 20:20:02",
+    "type": "text_block"
+  },
+  {
+    "text": "exit()",
+    "timestamp": "2026-05-16 20:20:50",
+    "type": "text"
+  },
+  {
+    "text": "python -m pip install easyocr",
+    "timestamp": "2026-05-16 20:20:56",
+    "type": "text"
+  },
+  {
+    "text": "python",
+    "timestamp": "2026-05-16 20:22:48",
+    "type": "text"
+  },
+  {
+    "text": "import easyocr\r\n\r\nreader = easyocr.Reader(['en'])\r\n\r\nprint(\"OCR working\")",
+    "timestamp": "2026-05-16 20:22:53",
+    "type": "text"
+  },
+  {
+    "text": "## Extracted Questions with Correct Answers\r\n\r\n### Q1\r\n\r\nThere are three runners Tom, Dick and Harry with respective speeds of 10 kmph, 20 kmph and 30 kmph. They run between P and Q continuously. How many times will they be together either at P or Q during the given period?\r\n\r\n✅ **Answer: 7**\r\n\r\n---\r\n\r\n### Q2\r\n\r\nA runs 25% faster than B and can give him a start of 7 m to end a race in a dead heat. What is the length of the race?\r\n\r\n✅ **Answer: 35 m**\r\n\r\n---\r\n\r\n### Q3\r\n\r\nA train 55 meters long travels at 60 kmph. At what time will it pass a cyclist moving at 6 kmph in the same direction?\r\n\r\n✅ **Answer: 3.66 sec**\r\n\r\n---\r\n\r\n### Q4\r\n\r\nA jogging track is 726 m in circumference. Suresh and his wife start from the same point in opposite directions at 4.5 km/hr and 3.75 km/hr. When will they meet first?\r\n\r\n✅ **Answer: 5.28 minutes**\r\n\r\n---\r\n\r\n### Q5\r\n\r\nIn a race of 1000 m, A beats B by 100 m. In a race of 800 m, B beats C by 100 m. By how many meters will A beat C in a race of 600 m?\r\n\r\n✅ **Answer: 127.5 m**\r\n\r\n---\r\n\r\n### Q6\r\n\r\nA train overtakes two men walking in the same direction at 3 km/hr and 4.5 km/hr in 8 s and 12 s respectively. Find the train length.\r\n\r\n✅ **Answer: 10 m**\r\n\r\n---\r\n\r\n### Q7\r\n\r\nThree men A, B and C walk around a circle of circumference 1760 m at 100, 120 and 105 m/min respectively. When will they meet again?\r\n\r\n✅ **Answer: 352 minutes**\r\n\r\n---\r\n\r\n### Q8\r\n\r\nA man rides at 18 km/hr but stops for 6 minutes after every 72 km. Time taken to cover 90 km?\r\n\r\n✅ **Answer: 6 hrs 12 min**\r\n\r\n---\r\n\r\n### Q9\r\n\r\nA train starts from Delhi at 6 AM and reaches Ambala at 10 AM. Another starts from Ambala at 8 AM and reaches Delhi at 11:30 AM. Distance is 200 km. At what time do they meet?\r\n\r\n✅ **Answer: 8:56 AM**\r\n\r\n---\r\n\r\n### Q10\r\n\r\nArwin travels at 6 kmph and reaches 40 min late. At 8 kmph he reaches 20 min early. Find the distance.\r\n\r\n✅ **Answer: 21 km**\r\n\r\n---\r\n\r\n### Q11\r\n\r\nIn what time will a 180 m train running at 24 m/s cross a 252 m bridge?\r\n\r\n✅ **Answer: 18 se",
+    "timestamp": "2026-05-16 20:37:19",
+    "type": "text_block"
+  },
+  {
+    "text": "Multi Choice Type Question\r\nAt what times A and B will be 5 km apart A and B are 20 km apart. A can walk at an average speed of 4 km/hr and B at 6 km/h. If they start walking towards each other at 7:00 am, when they will meet?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n8.00 AM\r\n\r\n\r\n9.00 AM\r\n\r\n\r\n8.30 AM\r\n\r\n\r\n10.00 AM",
+    "timestamp": "2026-05-16 20:38:21",
+    "type": "text_block"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n59:45\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n1/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n28/30\r\nSaved in Server\r\n1/30\r\nView More\r\nQuestion No : 2 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA man walked 12 km at a certain rate and then 6 km further at a rate of ½ km/hr faster. If he had walked the whole distance at the faster rate, his time would have been 20 minutes less. How long did it really take him to walk the 18 km?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n \r\n \r\n \r\n \r\n hrs\r\n\r\n\r\n \r\n \r\n \r\n hrs\r\n\r\n\r\n3 hrs\r\n\r\n\r\n4 hrs\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:38:33",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n59:19\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n2/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n27/30\r\nSaved in Server\r\n2/30\r\nView More\r\nQuestion No : 3 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA journey of 192 km between two cities takes two hours less by a fast train than by a slow train. If the average speed of the slow train is 16 km/h less than that of the fast train, then the average speed of the fast train is\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n52kmph\r\n\r\n\r\n40kmph\r\n\r\n\r\n48kmph\r\n\r\n\r\n36kmph\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:39:03",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n59:02\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n3/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n26/30\r\nSaved in Server\r\n3/30\r\nView More\r\nQuestion No : 4 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA 270 metres long train running at the speed of 120 kmph crosses another train running in the opposite direction at the speed of 80 kmph in 9 seconds. What is the length of the other train?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n200 m\r\n\r\n\r\n240 m\r\n\r\n\r\n220 m\r\n\r\n\r\n230 m\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:39:29",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n58:55\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n4/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n25/30\r\nSaved in Server\r\n4/30\r\nView More\r\nQuestion No : 5 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nSunil is running laps of 400 meters in a park. He runs the first lap with a constant speed in exactly 1 minute and 40 seconds. Every following lap he increases his speed by 10% of the previous speed without exceeding his personal limit of 1 minute and 20 seconds for one lap. How many laps at most will he complete?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n4\r\n\r\n\r\n5\r\n\r\n\r\n3\r\n\r\n\r\n2\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:39:39",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n58:44\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n5/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n24/30\r\nSaved in Server\r\n5/30\r\nView More\r\nQuestion No : 6 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nNikita takes as much time in running 18 meters as a car takes in covering 48 meters. What will be the distance covered by Nikita during the time the car covers 1.6 km?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n600 m\r\n\r\n\r\n480 m\r\n\r\n\r\n750 m\r\n\r\n\r\n500 m\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:39:55",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n58:36\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n6/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n23/30\r\nSaved in Server\r\n6/30\r\nView More\r\nQuestion No : 7 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nThe jogging track in a sports complex is 726 m in circumference. Suresh and his wife start from the same point and walk in opposite direction at 4.5 km/hr and 3.75 km/hr respectively. They will meet for the first time in:\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n5.5 minutes\r\n\r\n\r\n6 minutes\r\n\r\n\r\n4.9 minutes\r\n\r\n\r\n5.28 minutes\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:40:05",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n58:27\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n7/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n22/30\r\nSaved in Server\r\n7/30\r\nView More\r\nQuestion No : 8 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nTwo men A and B run a 4 km race on a course of 1/4 km round. If their speeds are in the ratio of 5: 4, how often does the winner pass the other?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\nThrice\r\n\r\n\r\nOnce\r\n\r\n\r\nTwice\r\n\r\n\r\nNone of these\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:40:15",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n58:16\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n8/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n21/30\r\nSaved in Server\r\n8/30\r\nView More\r\nQuestion No : 9 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nTwo cities A and B are at a distance of 60 km from each other. Two persons P and Q start from the first city at a speed of 10 km/hr and 5km/hr respectively. P reaches the second city B and returns to meet Q at Y. Find the distance between A and Y.\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n60 km\r\n\r\n\r\n100 Km\r\n\r\n\r\n30 km\r\n\r\n\r\n40 km\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:40:31",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n58:07\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n9/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n20/30\r\nSaved in Server\r\n9/30\r\nView More\r\nQuestion No : 10 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA train 55 meters in length travels at 60 km per hour. At what time will it pass a cycle which is being cycled by a man at 6 km/hr in the same direction as the train?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n4sec\r\n\r\n\r\n8.5sec\r\n\r\n\r\n12sec\r\n\r\n\r\n3.6sec\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:40:43",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:55\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n10/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n19/30\r\nSaved in Server\r\n10/30\r\nView More\r\nQuestion No : 11 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA runs 25% faster than B and is able to give him a start of 7 m to end a race in a dead heat. What is the length of the race?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n25 m\r\n\r\n\r\n10 m\r\n\r\n\r\n45 m\r\n\r\n\r\n35 m\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:40:59",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:47\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n11/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n18/30\r\nSaved in Server\r\n11/30\r\nView More\r\nQuestion No : 12 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA train (X) starts from Pune at 4:00 pm and reaches Delhi at 5:00 pm, while another train (Y) starts from Delhi at 4:00 pm and reaches Pune at 5:30 pm. What time will the two trains cross each other?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n4.06 pm\r\n\r\n\r\n4.16 pm\r\n\r\n\r\n4.36 pm\r\n\r\n\r\n4.26 pm\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:41:09",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:39\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n12/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n17/30\r\nSaved in Server\r\n12/30\r\nView More\r\nQuestion No : 13 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nAshwin has to travel from one point to another point in a certain time. Travelling at a speed of 6 kmph he reaches 40 minutes late and travelling at a speed of 8 kmph he reaches 12 minutes earlier. What is the distance between these two points (app.)?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n21 km\r\n\r\n\r\n18 km\r\n\r\n\r\n27 km\r\n\r\n\r\n15 km\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:41:19",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:31\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n13/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n16/30\r\nSaved in Server\r\n13/30\r\nView More\r\nQuestion No : 14 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nIn a 750 m race, the ratio of speeds of Arun to Darani is 1:3. Arun has a head start of 250 m. Who wins the race and by what distance?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\nArun, 200 m.\r\n\r\n\r\nDarani, 200 m.\r\n\r\n\r\nDarani, 250 m.\r\n\r\n\r\nArun, 250 m.\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:41:31",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:22\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n14/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n15/30\r\nSaved in Server\r\n14/30\r\nView More\r\nQuestion No : 15 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA train overtakes two men, walking in the same direction as the train, with speed of 3 km/hr and 4.5 km/hr in 8 and 12 seconds respectively. The length of the train is\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n10 m\r\n\r\n\r\n20 m\r\n\r\n\r\n40 m\r\n\r\n\r\n30 m\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:41:41",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:12\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n15/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n14/30\r\nSaved in Server\r\n15/30\r\nView More\r\nQuestion No : 16 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA farmer travelled a distance of 61 Km in 9hrs. He travelled partly on foot at the rate of 4km/hr and partly on bicycle at the rate of 9km/hr. The distance travelled in km on foot is :\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n15\r\n\r\n\r\n18\r\n\r\n\r\n16\r\n\r\n\r\n17\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:41:57",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n57:05\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n16/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n13/30\r\nSaved in Server\r\n16/30\r\nView More\r\nQuestion No : 17 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nThe difference in times when a man covers a certain distance at 10 km/hr and 25 km/hr is 45 minutes. The distance is ______\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n8 km\r\n\r\n\r\n9.5 km\r\n\r\n\r\n15.5 km\r\n\r\n\r\n12.5 km\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:42:05",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:58\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n17/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n12/30\r\nSaved in Server\r\n17/30\r\nView More\r\nQuestion No : 18 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nThree men A, B, and C walk around a circle, 1760 meters in circumference, at the rates of 160 meters, 120 meters, and 105 meters per minute respectively. If they all start together and walk in the same direction, when will they be first together again?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\nNone of these.\r\n\r\n\r\n352 minutes\r\n\r\n\r\n32 minutes\r\n\r\n\r\n44 minutes\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:42:15",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:48\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n18/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n11/30\r\nSaved in Server\r\n18/30\r\nView More\r\nQuestion No : 19 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nIn what time will a 180-metre long train running at 24 meters/Sec cross a 252-metre long bridge?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n16 sec\r\n\r\n\r\n18 sec\r\n\r\n\r\n12.1 sec\r\n\r\n\r\n9.8 sec\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:42:27",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:41\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n19/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n10/30\r\nSaved in Server\r\n19/30\r\nView More\r\nQuestion No : 20 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nIn a race of 1000 m, A can beat B by 100 m, in a race of 800m, B can beat C by 100m. By how many meters will A beat C in a race of 600 m?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n150.7 m\r\n\r\n\r\n127.5 m\r\n\r\n\r\n57.5 m\r\n\r\n\r\n98.6 m\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:42:35",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:34\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n20/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n9/30\r\nSaved in Server\r\n20/30\r\nView More\r\nQuestion No : 21 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nTwo athletes P and Q are running around a circular track of length 1200 m at speeds of 6 m/s and 3 m/s respectively. Both of them start simultaneously from the same point in the same direction but P reverses his direction every time he completes one round. After how much time from the start will they meet for the first time?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n100 seconds\r\n\r\n\r\n266.66 seconds\r\n\r\n\r\n166.66 seconds\r\n\r\n\r\n200 seconds\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:42:45",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:28\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n21/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n8/30\r\nSaved in Server\r\n21/30\r\nView More\r\nQuestion No : 22 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA, B, and C start from the same place to walk around a circular path of length 24 km. A walks at the rate of 4 kmph, B at 3 kmph and C at 3/2 kmph. They will meet together at the starting place at the end of ________?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n40 hours\r\n\r\n\r\n24 hours\r\n\r\n\r\n48 hours\r\n\r\n\r\n30 hours\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:42:53",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:20\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n22/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n7/30\r\nSaved in Server\r\n22/30\r\nView More\r\nQuestion No : 23 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA train starts from Delhi at 6:00 am and reaches Ambala Cantt at 10 am. The other train starts from Ambala Cantt at 8 am and reached Delhi at 11:30 am, If the distance between Delhi and Ambala Cantt is 200 km, then at what time did the two trains meet each other?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n8.46 am\r\n\r\n\r\n8.30 am\r\n\r\n\r\n8.56 am\r\n\r\n\r\n8.50 am\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:03",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:12\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n23/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n6/30\r\nSaved in Server\r\n23/30\r\nView More\r\nQuestion No : 24 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nTwo men start together to walk a certain distance, one at 4 kmph and another at 3 kmph. The former arrives half an hour before the latter. Find the distance.\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n9 km\r\n\r\n\r\nNone of these\r\n\r\n\r\n8 km\r\n\r\n\r\n6 km\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:13",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n56:06\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n24/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n5/30\r\nSaved in Server\r\n24/30\r\nView More\r\nQuestion No : 25 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nThere are three runners Tom, Dick and Harry with their respective speeds of 10 kmph, 20 kmph and 30 kmph. They are initially at P and they have to run between the two points P and Q which are 10 km apart from each other. They start their race at 6 am and end at 6 pm on the same day. If they run between P and Q without any break, then how many times they will be together either at P or Q during the given time period?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n4\r\n\r\n\r\n7\r\n\r\n\r\n5\r\n\r\n\r\n12\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:21",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n55:59\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n25/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n4/30\r\nSaved in Server\r\n25/30\r\nView More\r\nQuestion No : 26 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nThe current of a stream runs at 5 kmph. A motor launch goes 25 km upstream and back again to the starting point in 275/2 minutes. The speed of the motor launch in the absence of any current is\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n22.8 Kmph\r\n\r\n\r\n6 Kmph\r\n\r\n\r\n10.1 kmph\r\n\r\n\r\n31.6 Kmph\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:31",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n55:52\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n26/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n3/30\r\nSaved in Server\r\n26/30\r\nView More\r\nQuestion No : 27 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA plane left 30 minutes later than the scheduled time and to reach its destination 1,500 km away in time, it has to increase its speed by 250 km/hr from its usual speed. Find its usual speed in m/sec (approx).\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n350 m/sec\r\n\r\n\r\n202 m/sec\r\n\r\n\r\n208 m/sec\r\n\r\n\r\n326 m/sec\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:39",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n55:46\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n27/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n2/30\r\nSaved in Server\r\n27/30\r\nView More\r\nQuestion No : 28 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nTwo trains are traveling on parallel tracks in the same direction, at speeds of 50 km/hr and 32 km/hr respectively. The faster train crosses the last boggy of the slower train, measuring 18 m in 18 seconds. The length of the faster train is\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n0.072 km\r\n\r\n\r\n1.44 km\r\n\r\n\r\n720 m\r\n\r\n\r\n144 m\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:49",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n55:37\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n28/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n1/30\r\nSaved in Server\r\n28/30\r\nView More\r\nQuestion No : 29 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA man rides at the rate of 18 Km/hr but stops for 6 mins to change horses at the end of every 7th km. The time that he will take to cover a distance of 90 km is\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n6 hrs 24 min\r\n\r\n\r\n6 hrs 18 min\r\n\r\n\r\n6 hrs\r\n\r\n\r\n6 hrs 12 min\r\n\r\n\r\n\r\nClear\r\nPrev\r\nNext",
+    "timestamp": "2026-05-16 20:43:57",
+    "type": "email"
+  },
+  {
+    "text": "Internet Status:  \r\nOnline\r\nTest Code:\r\nc92c\r\nDay 4 Aptitude Assessment\r\n\r\nSection 1/1\r\nMCQ\r\n(30)\r\n\r\nName :\r\nVineeth Gandrathi\r\nRoll Number :\r\n23BEC7215\r\nEmail :\r\nvineetgandrathi@gmail.com\r\nDegree :\r\nB.Tech - Electronics and Communication Engineering\r\nBatch :\r\n2027\r\nTest Name :\r\nDay 4 Aptitude Assessment\r\n\r\nimage\r\n55:29\r\n\r\nSubmit Test\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\nAnswered\r\n29/30\r\nBookmarked\r\n0/30\r\nSkipped\r\n1/30\r\nNot Viewed\r\n0/30\r\nSaved in Server\r\n29/30\r\nView More\r\nQuestion No : 30 / 30\r\nbookmarkIcon\r\nMulti Choice Type Question\r\nA man traveled a distance of 61 km in 9 hours. He traveled partly on foot at 4 km/hr and partly on bicycle at 9 km/hr. What is the distance traveled on a bicycle?\r\n\r\nMarks : 1\r\nNegative Marks : 0\r\nimage\r\nAnswer here\r\n45 Km\r\n\r\n\r\n18 Km\r\n\r\n\r\n16 Km\r\n\r\n\r\n36 Km\r\n\r\n\r\n\r\nClear\r\nPrev",
+    "timestamp": "2026-05-16 20:44:07",
+    "type": "email"
+  },
+  {
+    "text": "Microsoft Windows [Version 10.0.26200.8457]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Users\\vinee>python\r\nPython 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)] on win32\r\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\r\n>>> import easyocr\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nModuleNotFoundError: No module named 'easyocr'\r\n>>>\r\n>>> reader = easyocr.Reader(['en'])\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'easyocr' is not defined\r\n>>>\r\n>>> result = reader.readtext(r\"Screenshot 2026-05-16 031041.png\", detail=0)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'reader' is not defined\r\n>>>\r\n>>> print(result)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'result' is not defined\r\n>>> exit()\r\n\r\nC:\\Users\\vinee>python -m pip install easyocr\r\nCollecting easyocr\r\n  Downloading easyocr-1.7.2-py3-none-any.whl.metadata (10 kB)\r\nCollecting torch (from easyocr)\r\n  Downloading torch-2.12.0-cp312-cp312-win_amd64.whl.metadata (31 kB)\r\nCollecting torchvision>=0.5 (from easyocr)\r\n  Downloading torchvision-0.27.0-cp312-cp312-win_amd64.whl.metadata (5.5 kB)\r\nCollecting opencv-python-headless (from easyocr)\r\n  Downloading opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl.metadata (20 kB)\r\nCollecting scipy (from easyocr)\r\n  Downloading scipy-1.17.1-cp312-cp312-win_amd64.whl.metadata (60 kB)\r\nRequirement already satisfied: numpy in c:\\users\\vinee\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from easyocr) (2.4.4)\r\nRequirement already satisfied: Pillow in c:\\users\\vinee\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from easyocr) (12.1.1)\r\nCollecting scikit-image (from easyocr)\r\n  Downloading scikit_image-0.26.0-cp312-cp312-win_amd64.whl.metadata (15 kB)\r\nCollecting python-bidi (from easyocr)\r\n  Downloading python_bid",
+    "timestamp": "2026-05-16 20:45:47",
+    "type": "text_block"
+  },
+  {
+    "text": "result = reader.readtext(r\"C:\\Users\\vinee\\Pictures\\Screenshot 2026-05-16 031041.png\", detail=0)\r\n\r\nprint(result)",
+    "timestamp": "2026-05-16 20:46:27",
+    "type": "text"
+  },
+  {
+    "text": "st = Request(uri, io_mode, format_hint=format_hint, extension=extension)\r\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\imageio\\core\\request.py\", line 250, in __init__\r\n    self._parse_uri(uri)\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\imageio\\core\\request.py\", line 410, in _parse_uri\r\n    raise FileNotFoundError(\"No such file: '%s'\" % fn)\r\nFileNotFoundError: No such file: 'C:\\Users\\vinee\\Pictures\\Screenshot 2026-05-16 031041.png'\r\n>>>\r\n>>> print(result)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError:",
+    "timestamp": "2026-05-16 20:46:33",
+    "type": "text_block"
+  },
+  {
+    "text": "OCR working\r\n>>> result = reader.readtext(r\"C:\\Users\\vinee\\Pictures\\Screenshot 2026-05-16 031041.png\", detail=0)\r\n[ WARN:0@1397.365] global loadsave.cpp:278 cv::findDecoder imread_('C:\\Users\\vinee\\Pictures\\Screenshot 2026-05-16 031041.png'): can't open/read file: check file path/integrity\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\easyocr\\easyocr.py\", line 454, in readtext\r\n    img, img_cv_grey = reformat_input(image)\r\n                       ^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\easyocr\\utils.py\", line 741, in reformat_input\r\n    img = loadImage(image)  # can accept URL\r\n          ^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\easyocr\\imgproc.py\", line 12, in loadImage\r\n    img = io.imread(img_file)           # RGB order\r\n          ^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\skimage\\_shared\\utils.py\", line 386, in fixed_func\r\n    return func(*args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\skimage\\io\\_io.py\", line 82, in imread\r\n    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)\r\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\skimage\\_shared\\utils.py\", line 690, in wrapped\r\n    return func(*args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\skimage\\io\\manage_plugins.py\", line 254, in call_plugin\r\n    return func(*args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\skimage\\io\\_plugins\\imageio_plugin.py\", line 11, in imread",
+    "timestamp": "2026-05-16 20:46:39",
+    "type": "email"
+  },
+  {
+    "text": "dir \"Screenshot*.png\" /s",
+    "timestamp": "2026-05-16 20:47:17",
+    "type": "text"
+  },
+  {
+    "text": "dir \"Screenshot*.png\" /s\r\n        ^^^^^^^^^^^^^^^^^\r\nSyntaxError",
+    "timestamp": "2026-05-16 20:47:21",
+    "type": "text"
+  },
+  {
+    "text": ">>> dir \"Screenshot*.png\" /s\r\n  File \"<stdin>\", line 1\r\n    dir \"Screenshot*.png\" /s\r\n        ^^^^^^^^^^^^^^^^^\r\nSyntaxError: invalid syntax\r\n>>>",
+    "timestamp": "2026-05-16 20:47:23",
+    "type": "text"
+  },
+  {
+    "text": "exit()",
+    "timestamp": "2026-05-16 20:47:37",
+    "type": "text"
+  },
+  {
+    "text": "dir \"Screenshot*.png\" /s",
+    "timestamp": "2026-05-16 20:47:41",
+    "type": "text"
+  },
+  {
+    "text": "C:\\Users\\vinee>dir \"Screenshot*.png\" /s\r\n Volume in drive C is OS\r\n Volume Serial Number is 2039-88D7\r\n\r\n Directory of C:\\Users\\vinee\\CrossDevice\\Vineeth's f54 (2)\\storage\\Android\\media\\com.whatsapp\\WhatsApp\\Media\\WhatsApp Documents\\Private\r\n\r\n20-07-2024  19:19         (182,171) Screenshot (196).png\r\n05-02-2024  17:54         (401,720) Screenshot_20240205-170901.png\r\n               2 File(s)        583,891 bytes\r\n\r\n Directory of C:\\Users\\vinee\\Downloads\\23bec7215 scripting\\23bec7215 scripting\r\n\r\n13-04-2026  23:32            75,842 Screenshot from 2026-02-19 14-23-52.png\r\n13-04-2026  23:32            53,611 Screenshot from 2026-02-19 14-26-13.png\r\n13-04-2026  23:32           390,775 Screenshot from 2026-02-19 14-47-27.png\r\n13-04-2026  23:32           238,681 Screenshot from 2026-02-19 14-47-49.png\r\n               4 File(s)        758,909 bytes\r\n\r\n Directory of C:\\Users\\vinee\\Downloads\\23bec7215 scripting\\23bec7215 scripting\\perl\r\n\r\n13-04-2026  23:32           207,498 Screenshot from 2026-02-26 14-31-09.png\r\n               1 File(s)        207,498 bytes\r\n\r\n Directory of C:\\Users\\vinee\\Downloads\\TransferNow-20260129KVlAl9ew\\Screenshots\r\n\r\n29-01-2026  22:17           256,798 Screenshot from 2025-07-24 22-22-54.png\r\n29-01-2026  22:17           285,092 Screenshot from 2025-07-24 22-27-15.png\r\n29-01-2026  22:17           308,930 Screenshot from 2025-07-24 22-27-41.png\r\n29-01-2026  22:17           272,257 Screenshot from 2025-07-24 22-27-55.png\r\n29-01-2026  22:17           251,335 Screenshot from 2025-07-24 22-28-13.png\r\n29-01-2026  22:17           124,663 Screenshot from 2025-08-28 16-59-02.png\r\n29-01-2026  22:17            49,222 Screenshot from 2025-08-28 17-05-08.png\r\n29-01-2026  22:17            64,524 Screenshot from 2025-08-28 17-06-36.png\r\n29-01-2026  22:17            93,332 Screenshot from 2025-08-28 17-07-28.png\r\n29-01-2026  22:17            88,256 Screenshot from 2025-08-28 17-08-53.png\r\n29-01-2026  22:17            65,527 Screenshot from 2025-08-28 17-09-42.png\r",
+    "timestamp": "2026-05-16 20:48:05",
+    "type": "text_block"
+  },
+  {
+    "text": "import pyautogui\r\n\r\nimg = pyautogui.screenshot()\r\n\r\nimg.save(\"testscreen.png\")",
+    "timestamp": "2026-05-16 20:48:43",
+    "type": "text"
+  },
+  {
+    "text": "result = reader.readtext(\"testscreen.png\", detail=0)\r\n\r\nprint(result)",
+    "timestamp": "2026-05-16 20:48:49",
+    "type": "text"
+  },
+  {
+    "text": "0 Dir(s)  107,532,455,936 bytes free\r\n\r\nC:\\Users\\vinee>python\r\nPython 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)] on win32\r\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\r\n>>> import pyautogui\r\n>>>\r\n>>> img = pyautogui.screenshot()\r\n>>>\r\n>>> img.save(\"testscreen.png\")\r\n>>> result = reader.readtext(\"testscreen.png\", detail=0)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'reader' is not defined\r\n>>>\r\n>>> print(result)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\nNameError: name 'result' is not defined\r\n>>>",
+    "timestamp": "2026-05-16 20:48:55",
+    "type": "text_block"
+  },
+  {
+    "text": "import easyocr\r\n\r\nreader = easyocr.Reader(['en'])",
+    "timestamp": "2026-05-16 20:49:25",
+    "type": "text"
+  },
+  {
+    "text": "result = reader.readtext(\"testscreen.png\", detail=0)\r\n\r\nprint(result)",
+    "timestamp": "2026-05-16 20:49:33",
+    "type": "text"
+  },
+  {
+    "text": "NameError: name 'result' is not defined\r\n>>> import easyocr\r\n>>>\r\n>>> reader = easyocr.Reader(['en'])\r\nNeither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.\r\n>>> result = reader.readtext(\"testscreen.png\", detail=0)\r\nC:\\Users\\vinee\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\torch\\utils\\data\\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.\r\n  super().__init__(loader)\r\n>>>\r\n>>> print(result)\r\n['ARIA Project Overview', 'ChatGPT', 'Share', 'This avoids all path problems completely:', '6 G Q  €', 'Command Prompt', 'python', '0  X', '14-05-2026', '18: 04', '44,563', 'Screenshot', '2026-05-14', '180402 . png', '15-05-2026', '04:40', '90', '609', 'Screenshot', '2026-05-15', '044045 . png', '15-05-2026', '05:19', '34 , 529', 'Screenshot', '2026-05-15', '051914.png', '15-05-2026', '05:19', '41,153', 'Screenshot', '2026-05-15', '051931', 'png', '15-05-2026', '05:19', '21,886', 'Screenshot', '2026-05-15', '051944.png', '15-05-2026', '05:19', '40, 856 Screenshot', '2026-05-15', '051956.png', '15-05-2026', '05:20', '42,445', 'Screenshot', '2026-05-15', '052005 . png', '15-05-2026', '05:20', '32,633 Screenshot', '2026-05-15 052012 .png', '16-05-2026', '01:26', '329, 922', 'Screenshot', '2026-05-16', '012648 . png', '16-05-2026', '01:44', '33,306', 'Screenshot', '2026-05-16', '014435.png', '16-05-2026', '02: 54', '482 , 016', 'Screenshot', '2026-05-16', '025439 .png', '16-05-2026', '02:55', '244', '646', 'Screenshot', '2026-05-16', '025552 . png', '16-05-2026', '03:10', '103, 640 Screenshot', '2026-05-16', '031041', 'png', '311 FileCs)', '63,039,146 bytes', 'Directory', 'of C: |Userslvinee| Videos| Captures', '18-02-2026', '13:29', '565 , 975', 'Screenshot', '18-02-2026 13_29_44.png', '26-04-2026', '12:31', '1,458, 927', 'Screenshot', '26-04-2026', '12_31_55 .png', '2 File(s)', '2,024,902 bytes', 'Total', 'Files', 'Listed:', '1582 Fi",
+    "timestamp": "2026-05-16 20:49:59",
+    "type": "text_block"
+  },
+  {
+    "text": "import java.util.*;\r\n\r\nclass Date {\r\n    int day, month, year;\r\n\r\n    Date(int day, int month, int year) {\r\n        this.day = day;\r\n        this.month = month;\r\n        this.year = year;\r\n    }\r\n}\r\n\r\npublic class Main {\r\n\r\n    // Method to compare two dates\r\n    static boolean isEarlier(Date d1, Date d2) {\r\n        if (d1.year != d2.year)\r\n            return d1.year < d2.year;\r\n        if (d1.month != d2.month)\r\n            return d1.month < d2.month;\r\n        return d1.day < d2.day;\r\n    }\r\n\r\n    public static void main(String[] args) {\r\n        Scanner sc = new Scanner(System.in);\r\n\r\n        int n = sc.nextInt();\r\n        Date[] dates = new Date[n];\r\n\r\n        // Input dates\r\n        for (int i = 0; i < n; i++) {\r\n            int day = sc.nextInt();\r\n            int month = sc.nextInt();\r\n            int year = sc.nextInt();\r\n            dates[i] = new Date(day, month, year);\r\n        }\r\n\r\n        // Selection Sort\r\n        for (int i = 0; i < n - 1; i++) {\r\n            int minIndex = i;\r\n\r\n            for (int j = i + 1; j < n; j++) {\r\n                if (isEarlier(dates[j], dates[minIndex])) {\r\n                    minIndex = j;\r\n                }\r\n            }\r\n\r\n            // Swap\r\n            Date temp = dates[i];\r\n            dates[i] = dates[minIndex];\r\n            dates[minIndex] = temp;\r\n        }\r\n\r\n        // Output sorted dates\r\n        for (Date d : dates) {\r\n            System.out.println(d.day + \" \" + d.month + \" \" + d.year);\r\n        }\r\n\r\n        sc.close();\r\n    }\r\n}",
+    "timestamp": "2026-05-16 20:52:15",
+    "type": "text_block"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "text": "**Key SAE J-2284-3 definitions:**",
+    "timestamp": "2026-04-24 16:14:08",
+    "type": "text"
+  },
+  {
+    "text": "Device name\tDESKTOP-KBHCNPN\r\nProcessor\t11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz (2.30 GHz)\r\nInstalled RAM\t16.0 GB (15.7 GB usable)\r\nGraphics card\tNVIDIA GeForce RTX 3050 Laptop GPU (4 GB)\nIntel(R) UHD Graphics (128 MB)\r\nStorage\t214 GB of 477 GB used\r\nDevice ID\t13565417-3A64-44FE-9F10-167B555E7D95\r\nProduct ID\t00342-42605-62699-AAOEM\r\nSystem type\t64-bit operating system, x64-based processor\r\nPen and touch\tNo pen or touch input is available for this display",
+    "timestamp": "2026-04-24 16:20:27",
+    "type": "email"
+  },
+  {
+    "text": "wmic process get name,percentprocessortime /format:list | sort",
+    "timestamp": "2026-04-24 16:21:22",
+    "type": "text"
+  },
+  {
+    "text": "Microsoft Windows [Version 10.0.26200.8246]\r\n(c) Microsoft Corporation. All rights reserved.\r\n\r\nC:\\Windows\\System32>wmic process get name,percentprocessortime /format:list | sort\r\nNode - DESKTOP-KBHCNPN\r\nERROR:\r\nDescription = Invalid query\r\n\r\n\r\n\r\n\r\nC:\\Windows\\System32>",
+    "timestamp": "2026-04-24 16:21:28",
+    "type": "text_block"
+  },
+  {
+    "text": "powershell \"Get-Process | Sort-Object CPU -Descending | Select-Object -First 15 Name, CPU, WorkingSet | Format-Table -AutoSize\"",
+    "timestamp": "2026-04-24 16:21:38",
+    "type": "text"
+  },
+  {
+    "text": "C:\\Windows\\System32>powershell \"Get-Process | Sort-Object CPU -Descending | Select-Object -First 15 Name, CPU, WorkingSet | Format-Table -AutoSize\"\r\n\r\nName                                      CPU WorkingSet\r\n----                                      --- ----------\r\nSystem                                 251.25     167936\r\nMsMpEng                                133.25  238444544\r\nDellSupportAssistRemedationService  121.34375  112660480\r\nmc-fw-host                         116.453125  262819840\r\nSearchIndexer                        68.78125   46911488\r\nsvchost                             65.890625   39321600\r\nTaskmgr                               63.1875  193347584\r\nzen                                 55.984375  645599232\r\nzen                                    53.625  179564544\r\ndwm                                  48.78125  176775168\r\nSupportAssistAgent                   39.15625  364789760\r\nzen                                 34.890625  359079936\r\nCrossDeviceService                   34.90625  193945600\r\nexplorer                              34.3125  333402112\r\nchrome                              32.265625  323616768\r\n\r\n\r\n\r\nC:\\Windows\\System32>",
+    "timestamp": "2026-04-24 16:23:02",
+    "type": "text_block"
+  },
+  {
+    "text": "taskkill /F /IM MsMpEng.exe & taskkill /F /IM mc-fw-host.exe & taskkill /F /IM SupportAssistAgent.exe & taskkill /F /IM DellSupportAssistRemedationService.exe & taskkill /F /IM SearchIndexer.exe",
+    "timestamp": "2026-04-24 16:23:20",
+    "type": "text"
+  },
+  {
+    "text": "1 402 015 102",
+    "timestamp": "2026-04-28 15:14:20",
+    "type": "phone"
+  }
+]
