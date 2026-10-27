@@ -27,18 +27,32 @@ _DESTRUCTIVE_ACTIONS = {
 }
 
 
+def _normalize_confirmation(confirm_value):
+    return confirm_value is True
+
+
 def action_requires_confirmation(action_name):
     return action_name in _DESTRUCTIVE_ACTIONS
 
 
-def _sanitize_action_value(value):
-    if value is None:
-        return None
-    if isinstance(value, str):
-        value = value.strip()
-        if not value:
-            return value
-    return value
+def _is_safe_command_string(command):
+    if not isinstance(command, str):
+        return False
+    cleaned = command.strip()
+    if not cleaned:
+        return False
+    blocked = ["&&", "||", ";", "`", "$(", "|", ">>", "<", "&"]
+    return not any(token in cleaned for token in blocked)
+
+
+def _safe_command_list(command):
+    if isinstance(command, (list, tuple)):
+        return [str(p) for p in command]
+    if isinstance(command, str):
+        if not _is_safe_command_string(command):
+            raise ValueError("Unsafe command rejected. Use a validated argument list or allow explicit opt-in.")
+        return ["cmd", "/d", "/s", "/c", command]
+    raise ValueError("Command must be a string or list of arguments.")
 
 
 def _get_default_browser():
@@ -153,13 +167,13 @@ def _launch_url(url):
     path = _get_default_browser_path()
     name = _get_default_browser()
     if path and os.path.exists(path):
-        subprocess.Popen([path, url])
+        subprocess.Popen([path, url], shell=False)
         return True
     if name:
         found = _find_browser_exe(name)
         if found:
             _set_default_browser(name, found)
-            subprocess.Popen([found, url])
+            subprocess.Popen([found, url], shell=False)
             return True
     try:
         os.startfile(url)
@@ -405,20 +419,31 @@ def open_app(name):
         "device manager": "devmgmt.msc",
         "registry editor":"regedit.exe",
     }
-    exe = app_map.get(name.lower().strip(), name)
+    safe_name = (name or "").strip()
+    if not safe_name:
+        return False
+    safe_name = re.sub(r"[^a-z0-9 _.-]", "", safe_name.lower())
+    if not safe_name:
+        return False
+    exe = app_map.get(safe_name, safe_name)
     try:
         if exe.startswith("ms-"):
             os.startfile(exe)
         elif exe.endswith(".msc"):
             subprocess.Popen(["mmc", exe], shell=False)
         else:
-            subprocess.Popen([exe], shell=False)
+            if os.path.exists(exe):
+                subprocess.Popen([exe], shell=False)
+            elif os.path.isabs(exe):
+                return False
+            else:
+                subprocess.Popen([exe], shell=False)
         time.sleep(2)
         return True
     except Exception:
         pyautogui.hotkey("win")
         time.sleep(1)
-        pyautogui.typewrite(name, interval=0.05)
+        pyautogui.typewrite(safe_name, interval=0.05)
         time.sleep(1.5)
         pyautogui.press("enter")
         time.sleep(2)
@@ -474,9 +499,27 @@ def take_screenshot(filename="screenshot.png"):
     return path
 
 
-def run_system_command(cmd):
+def run_system_command(cmd, allow_shell=False, timeout=30):
+    if isinstance(cmd, (list, tuple)):
+        try:
+            result = subprocess.run(list(cmd), shell=False, capture_output=True, text=True, timeout=timeout)
+            output = result.stdout.strip() or result.stderr.strip()
+            if output:
+                print(output)
+            return output
+        except subprocess.TimeoutExpired:
+            return "Command timed out"
+        except Exception as e:
+            return str(e)
+
+    if not isinstance(cmd, str):
+        raise ValueError("Command must be a string or list of arguments.")
+
+    if not allow_shell and not _is_safe_command_string(cmd):
+        raise ValueError("Unsafe command rejected. Use a validated argument list or explicit allow_shell=True.")
+
     try:
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=30)
+        result = subprocess.run(_safe_command_list(cmd), shell=False, capture_output=True, text=True, timeout=timeout)
         output = result.stdout.strip() or result.stderr.strip()
         if output:
             print(output)
@@ -503,13 +546,24 @@ def set_volume(level):
         volume = cast(interface, POINTER(IAudioEndpointVolume))
         volume.SetMasterVolumeLevelScalar(level / 100, None)
     except Exception:
-        run_system_command(f'powershell -c "$wsh = New-Object -ComObject WScript.Shell; '
-                           f'1..{max(1,level//2)} | %{{ $wsh.SendKeys([char]175) }}"')
+        run_system_command([
+            "powershell",
+            "-NoProfile",
+            "-NonInteractive",
+            "-Command",
+            f"$wsh = New-Object -ComObject WScript.Shell; 1..{max(1, level // 2)} | %{{ $wsh.SendKeys([char]175) }}"
+        ])
     return True
 
 
 def mute_volume():
-    run_system_command('powershell -c "(New-Object -ComObject WScript.Shell).SendKeys([char]173)"')
+    run_system_command([
+        "powershell",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "(New-Object -ComObject WScript.Shell).SendKeys([char]173)"
+    ])
     return True
 
 
@@ -519,22 +573,22 @@ def lock_screen():
 
 
 def sleep_pc():
-    run_system_command("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
+    run_system_command(["rundll32.exe", "powrprof.dll,SetSuspendState", "0,1,0"])
     return True
 
 
 def shutdown_pc(delay=0):
-    run_system_command(f"shutdown /s /t {int(delay)}")
+    run_system_command(["shutdown", "/s", "/t", str(int(delay))])
     return True
 
 
 def restart_pc(delay=0):
-    run_system_command(f"shutdown /r /t {int(delay)}")
+    run_system_command(["shutdown", "/r", "/t", str(int(delay))])
     return True
 
 
 def cancel_shutdown():
-    run_system_command("shutdown /a")
+    run_system_command(["shutdown", "/a"])
     return True
 
 
@@ -543,7 +597,7 @@ def empty_recycle_bin():
         import winshell
         winshell.recycle_bin().empty(confirm=False, show_progress=False, sound=False)
     except Exception:
-        run_system_command('powershell -c "Clear-RecycleBin -Force"')
+        run_system_command(["powershell", "-NoProfile", "-NonInteractive", "-Command", "Clear-RecycleBin -Force"])
     print("  Recycle Bin emptied.")
     return True
 
@@ -573,22 +627,26 @@ def clear_temp_files():
 
 
 def kill_process(name):
-    run_system_command(f"taskkill /F /IM {name} /T")
-    print(f"  Killed: {name}")
+    safe_name = re.sub(r"[^a-zA-Z0-9_.-]", "", str(name))
+    if not safe_name:
+        return False
+    run_system_command(["taskkill", "/F", "/IM", safe_name, "/T"])
+    print(f"  Killed: {safe_name}")
     return True
 
 
 def get_wifi_password(ssid=None):
     if ssid:
-        out = run_system_command(f'netsh wlan show profile name="{ssid}" key=clear')
+        safe_ssid = re.sub(r"[^a-zA-Z0-9 _.-]", "", str(ssid))
+        out = run_system_command(["netsh", "wlan", "show", "profile", f"name={safe_ssid}", "key=clear"])  # type: ignore[list-item]
         m = re.search(r"Key Content\s+:\s+(.+)", out)
         print(f"  Password: {m.group(1).strip()}" if m else "  No password found.")
     else:
-        out = run_system_command("netsh wlan show profiles")
+        out = run_system_command(["netsh", "wlan", "show", "profiles"])
         profiles = re.findall(r"All User Profile\s+:\s+(.+)", out)
         for p in profiles:
             p = p.strip()
-            detail = run_system_command(f'netsh wlan show profile name="{p}" key=clear')
+            detail = run_system_command(["netsh", "wlan", "show", "profile", f"name={p}", "key=clear"])
             m = re.search(r"Key Content\s+:\s+(.+)", detail)
             pw = m.group(1).strip() if m else "open"
             print(f"  {p}: {pw}")
@@ -616,21 +674,20 @@ def get_public_ip():
 
 
 def flush_dns():
-    run_system_command("ipconfig /flushdns")
+    run_system_command(["ipconfig", "/flushdns"])
     print("  DNS cache flushed.")
     return True
 
 
 def reset_network():
-    for cmd in ["netsh int ip reset", "netsh winsock reset",
-                "ipconfig /flushdns", "ipconfig /release", "ipconfig /renew"]:
+    for cmd in [["netsh", "int", "ip", "reset"], ["netsh", "winsock", "reset"], ["ipconfig", "/flushdns"], ["ipconfig", "/release"], ["ipconfig", "/renew"]]:
         run_system_command(cmd)
     print("  Network stack reset. Restart recommended.")
     return True
 
 
 def ping_host(host="8.8.8.8"):
-    out = run_system_command(f"ping -n 4 {host}")
+    out = run_system_command(["ping", "-n", "4", str(host)])
     print(out)
     return True
 
@@ -702,7 +759,7 @@ def find_files(pattern, search_dir=None):
 
 
 def open_file_location(path):
-    subprocess.Popen(f'explorer /select,"{path}"')
+    subprocess.Popen(["explorer", "/select", path], shell=False)
     return True
 
 
@@ -758,7 +815,7 @@ def battery_status():
         else:
             print("  No battery (desktop?)")
     except Exception:
-        run_system_command("WMIC Path Win32_Battery Get EstimatedChargeRemaining")
+        run_system_command(["wmic", "Path", "Win32_Battery", "Get", "EstimatedChargeRemaining"])
     return True
 
 
@@ -777,7 +834,7 @@ def top_processes(count=10):
         for name, cpu, mem in procs[:int(count)]:
             print(f"  {name:<35} {cpu:>6.1f} {mem/1024/1024:>8.1f}")
     except Exception:
-        run_system_command("tasklist /FO TABLE /NH")
+        run_system_command(["tasklist", "/FO", "TABLE", "/NH"])
     return True
 
 
@@ -792,15 +849,24 @@ def notify(title, message, duration=5):
         from win10toast import ToastNotifier
         ToastNotifier().show_toast(title, message, duration=int(duration), threaded=True)
     except Exception:
-        run_system_command(f"powershell -c \"New-BurntToastNotification -Text '{title}', '{message}'\"")
+        run_system_command([
+            "powershell",
+            "-NoProfile",
+            "-NonInteractive",
+            "-Command",
+            f"New-BurntToastNotification -Text '{title}', '{message}'"
+        ])
     return True
 
 
 def speak(text):
-    run_system_command(
-        f"powershell -c \"Add-Type -AssemblyName System.Speech; "
-        f"$s=New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Speak('{text}')\""
-    )
+    run_system_command([
+        "powershell",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        f"Add-Type -AssemblyName System.Speech; $s=New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Speak('{text}')"
+    ])
     return True
 
 
@@ -894,47 +960,47 @@ def generate_password(length=16):
 
 
 def get_system_info():
-    run_system_command('systeminfo | findstr /C:"OS" /C:"RAM" /C:"Processor"')
+    run_system_command(["systeminfo"])  # no shell injection, direct list
     return True
 
 
 def enable_dark_mode():
-    run_system_command(
-        "reg add HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize "
-        "/v AppsUseLightTheme /t REG_DWORD /d 0 /f"
-    )
+    run_system_command([
+        "reg", "add", r"HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize",
+        "/v", "AppsUseLightTheme", "/t", "REG_DWORD", "/d", "0", "/f"
+    ])
     print("  Dark mode enabled.")
     return True
 
 
 def enable_light_mode():
-    run_system_command(
-        "reg add HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize "
-        "/v AppsUseLightTheme /t REG_DWORD /d 1 /f"
-    )
+    run_system_command([
+        "reg", "add", r"HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize",
+        "/v", "AppsUseLightTheme", "/t", "REG_DWORD", "/d", "1", "/f"
+    ])
     print("  Light mode enabled.")
     return True
 
 
 def check_startup_programs():
-    run_system_command("reg query HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run")
+    run_system_command(["reg", "query", r"HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"])
     return True
 
 
 def install_package(package, manager="pip"):
     cmds = {
-        "pip":    f"pip install {package} --quiet",
-        "npm":    f"npm install -g {package}",
-        "winget": f"winget install {package}",
-        "choco":  f"choco install {package} -y",
+        "pip":    [sys.executable, "-m", "pip", "install", str(package), "--quiet"],
+        "npm":    ["npm", "install", "-g", str(package)],
+        "winget": ["winget", "install", str(package)],
+        "choco":  ["choco", "install", str(package), "-y"],
     }
-    run_system_command(cmds.get(manager, cmds["pip"]))
+    result = run_system_command(cmds.get(manager, cmds["pip"]))
     print(f"  Installed: {package} via {manager}")
     return True
 
 
 def open_hosts_file():
-    subprocess.Popen(["notepad", r"C:\Windows\System32\drivers\etc\hosts"])
+    subprocess.Popen(["notepad", r"C:\Windows\System32\drivers\etc\hosts"], shell=False)
     return True
 
 
@@ -947,7 +1013,7 @@ def get_local_ip():
         print(f"  Local IP: {ip}")
         return ip
     except Exception:
-        run_system_command("ipconfig | findstr IPv4")
+        run_system_command(["ipconfig"])  # no shell parsing
         return None
 
 
@@ -984,7 +1050,7 @@ def focus_window(title_contains):
 
 
 def close_window(title_contains):
-    run_system_command(f'taskkill /FI "WINDOWTITLE eq *{title_contains}*" /F')
+    run_system_command(["taskkill", "/FI", f"WINDOWTITLE eq *{title_contains}*", "/F"])
     return True
 
 
@@ -1001,16 +1067,19 @@ def maximize_window():
 
 
 def git_status(repo_path="."):
-    return run_system_command(f'cd /d "{repo_path}" && git status')
+    result = subprocess.run(["git", "-C", repo_path, "status"], capture_output=True, text=True)
+    print(result.stdout or result.stderr)
+    return result.stdout.strip() or result.stderr.strip()
 
 
 def git_commit(message, repo_path="."):
-    run_system_command(f'cd /d "{repo_path}" && git add -A && git commit -m "{message}"')
+    subprocess.run(["git", "-C", repo_path, "add", "-A"], check=False)
+    subprocess.run(["git", "-C", repo_path, "commit", "-m", str(message)], check=False)
     return True
 
 
 def git_push(repo_path="."):
-    run_system_command(f'cd /d "{repo_path}" && git push')
+    subprocess.run(["git", "-C", repo_path, "push"], check=False)
     return True
 
 
@@ -1117,8 +1186,8 @@ ACTIONS = {
 
 def execute_action(action_name, **kwargs):
     if action_requires_confirmation(action_name):
-        confirm = kwargs.pop("confirm", False)
-        if not confirm:
+        confirm = kwargs.pop("confirm", None)
+        if confirm is not True:
             print(f"  Action '{action_name}' requires explicit confirmation; pass confirm=True to run it.")
             return False
     func = ACTIONS.get(action_name)
@@ -1128,7 +1197,7 @@ def execute_action(action_name, **kwargs):
         sig = inspect.signature(func)
         valid = set(sig.parameters.keys())
         has_var = any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values())
-        filtered = kwargs if has_var else {k: _sanitize_action_value(v) for k, v in kwargs.items() if k in valid}
+        filtered = kwargs if has_var else {k: v for k, v in kwargs.items() if k in valid}
         return func(**filtered)
     except Exception as e:
         print(f"  Action error ({action_name}): {e}")
