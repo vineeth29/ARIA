@@ -1,8 +1,22 @@
-import os, sys, threading, tempfile, wave, struct, time
+import os, sys, threading, tempfile, wave, struct, time, re
 
+_ENDED = False
 _ENABLED = False
 _RECORDING = False
 _LISTEN_THREAD = None
+
+
+def _escape_powershell_string(value):
+    return str(value).replace("'", "''")
+
+
+def _sanitize_speech_text(value):
+    safe = str(value or "")
+    safe = safe.replace("\r", " ").replace("\n", " ")
+    safe = re.sub(r"[\x00-\x1f\x7f]", "", safe)
+    safe = safe[:300]
+    return safe
+
 
 def is_available():
     try:
@@ -12,6 +26,7 @@ def is_available():
     except ImportError:
         return False
 
+
 def install_deps():
     import subprocess
     pkgs = ["faster-whisper", "pyaudio"]
@@ -19,13 +34,16 @@ def install_deps():
         subprocess.run([sys.executable, "-m", "pip", "install", pkg, "--quiet"],
                        capture_output=True)
 
+
 _model = None
+
 def _get_model():
     global _model
     if _model is None:
         from faster_whisper import WhisperModel
         _model = WhisperModel("tiny", device="cpu", compute_type="int8")
     return _model
+
 
 def record_until_silence(max_seconds=10, silence_threshold=500, silence_duration=1.5):
     import pyaudio
@@ -66,12 +84,14 @@ def record_until_silence(max_seconds=10, silence_threshold=500, silence_duration
         wf.writeframes(b"".join(frames))
     return tmp_path
 
+
 def transcribe(audio_path):
     model = _get_model()
     segments, _ = model.transcribe(audio_path, beam_size=1, language="en")
     text = " ".join(s.text for s in segments).strip()
     os.unlink(audio_path)
     return text
+
 
 def listen_once(status_cb=None):
     if not is_available():
@@ -87,15 +107,19 @@ def listen_once(status_cb=None):
     except Exception as e:
         return None, str(e)
 
+
 def speak(text):
     import subprocess
     try:
-        subprocess.Popen(
-            ["powershell", "-c",
-             f"Add-Type -AssemblyName System.Speech; "
-             f"$s=New-Object System.Speech.Synthesis.SpeechSynthesizer; "
-             f"$s.Rate=1; $s.Speak('{text[:300]}')"],
-            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
-        )
+        safe_text = _sanitize_speech_text(text)
+        safe_text = _escape_powershell_string(safe_text)
+        cmd = [
+            "powershell",
+            "-NoProfile",
+            "-NonInteractive",
+            "-Command",
+            f"Add-Type -AssemblyName System.Speech; $s=New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Rate=1; $s.Speak('{safe_text}')",
+        ]
+        subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except Exception:
         pass

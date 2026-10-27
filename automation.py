@@ -3,6 +3,44 @@ import os, time, subprocess, inspect, shutil, socket, urllib.request, json, date
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _CONFIG_FILE = os.path.join(_SCRIPT_DIR, "config.json")
 
+_DESTRUCTIVE_ACTIONS = {
+    "shutdown",
+    "restart",
+    "cancel_shutdown",
+    "empty_recycle_bin",
+    "clear_temp",
+    "kill_process",
+    "delete_file",
+    "rename_file",
+    "copy_file",
+    "reset_network",
+    "flush_dns",
+    "git_commit",
+    "git_push",
+    "install_package",
+    "close_window",
+    "focus_window",
+    "set_wallpaper",
+    "create_shortcut",
+    "sleep_pc",
+    "lock_screen",
+}
+
+
+def action_requires_confirmation(action_name):
+    return action_name in _DESTRUCTIVE_ACTIONS
+
+
+def _sanitize_action_value(value):
+    if value is None:
+        return None
+    if isinstance(value, str):
+        value = value.strip()
+        if not value:
+            return value
+    return value
+
+
 def _get_default_browser():
     try:
         with open(_CONFIG_FILE) as f:
@@ -11,16 +49,18 @@ def _get_default_browser():
     except Exception:
         return ""
 
+
 def _set_default_browser(name, path):
     try:
         with open(_CONFIG_FILE) as f:
             c = json.load(f)
-        c["default_browser"]      = name.lower().strip()
+        c["default_browser"] = name.lower().strip()
         c["default_browser_path"] = path
         with open(_CONFIG_FILE, "w") as f:
             json.dump(c, f, indent=2)
     except Exception:
         pass
+
 
 def _get_default_browser_path():
     try:
@@ -29,6 +69,7 @@ def _get_default_browser_path():
         return c.get("default_browser_path", "")
     except Exception:
         return ""
+
 
 BROWSER_ALIASES = {
     "zen":            "zen",
@@ -55,6 +96,7 @@ BROWSER_EXE_NAMES = {
     "vivaldi": "vivaldi.exe",
 }
 
+
 def set_browser(name):
     canonical = BROWSER_ALIASES.get(name.lower().strip(), name.lower().strip())
     for path in KNOWN_BROWSER_PATHS.get(canonical, []):
@@ -65,6 +107,7 @@ def set_browser(name):
     _set_default_browser(canonical, "")
     print(f"  Saved {canonical} as browser. Will try to find it when needed.")
     return True, None
+
 
 KNOWN_BROWSER_PATHS = {
     "chrome": [
@@ -98,11 +141,13 @@ KNOWN_BROWSER_PATHS = {
     ],
 }
 
+
 def _find_browser_exe(name):
     for path in KNOWN_BROWSER_PATHS.get(name.lower(), []):
         if os.path.exists(path):
             return path
     return None
+
 
 def _launch_url(url):
     path = _get_default_browser_path()
@@ -123,7 +168,9 @@ def _launch_url(url):
         pass
     return False
 
+
 _browser = None
+
 
 def get_browser():
     global _browser
@@ -148,6 +195,7 @@ def get_browser():
     _browser = webdriver.Edge(service=service, options=options)
     return _browser
 
+
 def open_url(url, browser=None):
     if not url.startswith("http"):
         url = "https://" + url
@@ -158,12 +206,15 @@ def open_url(url, browser=None):
     print(f"  No browser set. Tell ARIA: use chrome / use firefox / use edge")
     return False
 
+
 def open_browser(url, browser=None):
     return open_url(url)
+
 
 def browser_wait(seconds=3):
     time.sleep(int(seconds))
     return True
+
 
 def browser_find_and_click(text=None, css=None, xpath=None, wait=10):
     from selenium.webdriver.common.by import By
@@ -198,6 +249,7 @@ def browser_find_and_click(text=None, css=None, xpath=None, wait=10):
     except Exception:
         return False
 
+
 def browser_type(text, css=None, xpath=None, clear=True, press_enter=False):
     from selenium.webdriver.common.by import By
     from selenium.webdriver.common.keys import Keys
@@ -222,6 +274,7 @@ def browser_type(text, css=None, xpath=None, clear=True, press_enter=False):
     except Exception:
         return False
 
+
 def browser_press_key(key):
     from selenium.webdriver.common.keys import Keys
     from selenium.webdriver.common.action_chains import ActionChains
@@ -238,6 +291,7 @@ def browser_press_key(key):
     time.sleep(0.5)
     return True
 
+
 def browser_get_text(css=None, xpath=None):
     from selenium.webdriver.common.by import By
     b = get_browser()
@@ -250,12 +304,14 @@ def browser_get_text(css=None, xpath=None):
     except Exception:
         return ""
 
+
 def close_browser():
     global _browser
     if _browser:
         _browser.quit()
         _browser = None
     return True
+
 
 def send_whatsapp(contact, message):
     from selenium.webdriver.common.by import By
@@ -298,10 +354,12 @@ def send_whatsapp(contact, message):
     except Exception:
         return False
 
+
 def search_google(query):
     import urllib.parse
     url = f"https://www.google.com/search?q={urllib.parse.quote_plus(query)}"
     return open_url(url, browser="zen")
+
 
 def open_youtube(query=None):
     if query:
@@ -310,6 +368,7 @@ def open_youtube(query=None):
     else:
         url = "https://www.youtube.com"
     return open_url(url, browser="zen")
+
 
 def open_app(name):
     import pyautogui
@@ -351,9 +410,9 @@ def open_app(name):
         if exe.startswith("ms-"):
             os.startfile(exe)
         elif exe.endswith(".msc"):
-            subprocess.Popen(["mmc", exe], shell=True)
+            subprocess.Popen(["mmc", exe], shell=False)
         else:
-            subprocess.Popen(exe, shell=True)
+            subprocess.Popen([exe], shell=False)
         time.sleep(2)
         return True
     except Exception:
@@ -365,6 +424,7 @@ def open_app(name):
         time.sleep(2)
         return True
 
+
 def type_text(text):
     import pyautogui
     if text.isascii():
@@ -373,10 +433,12 @@ def type_text(text):
         pyautogui.write(text)
     return True
 
+
 def press_key(key):
     import pyautogui
     pyautogui.press(key)
     return True
+
 
 def hotkey(keys):
     import pyautogui
@@ -384,15 +446,18 @@ def hotkey(keys):
     pyautogui.hotkey(*parts)
     return True
 
+
 def mouse_click(x, y):
     import pyautogui
     pyautogui.click(int(x), int(y))
     return True
 
+
 def mouse_move(x, y):
     import pyautogui
     pyautogui.moveTo(int(x), int(y), duration=0.3)
     return True
+
 
 def mouse_scroll(direction="down", amount=3):
     import pyautogui
@@ -400,12 +465,14 @@ def mouse_scroll(direction="down", amount=3):
     pyautogui.scroll(-amt if direction == "down" else amt)
     return True
 
+
 def take_screenshot(filename="screenshot.png"):
     import pyautogui
     path = os.path.join(os.path.expanduser("~"), "Desktop", filename)
     pyautogui.screenshot().save(path)
     print(f"  Screenshot saved: {path}")
     return path
+
 
 def run_system_command(cmd):
     try:
@@ -419,9 +486,11 @@ def run_system_command(cmd):
     except Exception as e:
         return str(e)
 
+
 def wait(seconds):
     time.sleep(float(seconds))
     return True
+
 
 def set_volume(level):
     level = int(level)
@@ -438,29 +507,36 @@ def set_volume(level):
                            f'1..{max(1,level//2)} | %{{ $wsh.SendKeys([char]175) }}"')
     return True
 
+
 def mute_volume():
     run_system_command('powershell -c "(New-Object -ComObject WScript.Shell).SendKeys([char]173)"')
     return True
+
 
 def lock_screen():
     ctypes.windll.user32.LockWorkStation()
     return True
 
+
 def sleep_pc():
     run_system_command("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
     return True
+
 
 def shutdown_pc(delay=0):
     run_system_command(f"shutdown /s /t {int(delay)}")
     return True
 
+
 def restart_pc(delay=0):
     run_system_command(f"shutdown /r /t {int(delay)}")
     return True
 
+
 def cancel_shutdown():
     run_system_command("shutdown /a")
     return True
+
 
 def empty_recycle_bin():
     try:
@@ -470,6 +546,7 @@ def empty_recycle_bin():
         run_system_command('powershell -c "Clear-RecycleBin -Force"')
     print("  Recycle Bin emptied.")
     return True
+
 
 def clear_temp_files():
     paths = [
@@ -494,10 +571,12 @@ def clear_temp_files():
     print(f"  Cleared {freed / (1024*1024):.1f} MB of temp files.")
     return True
 
+
 def kill_process(name):
     run_system_command(f"taskkill /F /IM {name} /T")
     print(f"  Killed: {name}")
     return True
+
 
 def get_wifi_password(ssid=None):
     if ssid:
@@ -515,6 +594,7 @@ def get_wifi_password(ssid=None):
             print(f"  {p}: {pw}")
     return True
 
+
 def check_internet():
     try:
         socket.create_connection(("8.8.8.8", 53), timeout=3)
@@ -523,6 +603,7 @@ def check_internet():
     except OSError:
         print("  Internet: Not connected")
         return False
+
 
 def get_public_ip():
     try:
@@ -533,10 +614,12 @@ def get_public_ip():
         print("  Could not fetch public IP.")
         return None
 
+
 def flush_dns():
     run_system_command("ipconfig /flushdns")
     print("  DNS cache flushed.")
     return True
+
 
 def reset_network():
     for cmd in ["netsh int ip reset", "netsh winsock reset",
@@ -545,15 +628,18 @@ def reset_network():
     print("  Network stack reset. Restart recommended.")
     return True
 
+
 def ping_host(host="8.8.8.8"):
     out = run_system_command(f"ping -n 4 {host}")
     print(out)
     return True
 
+
 def create_folder(path):
     os.makedirs(path, exist_ok=True)
     print(f"  Created: {path}")
     return True
+
 
 def delete_file(path):
     try:
@@ -567,6 +653,7 @@ def delete_file(path):
         print(f"  Error: {e}")
         return False
 
+
 def rename_file(src, dst):
     try:
         os.rename(src, dst)
@@ -576,6 +663,7 @@ def rename_file(src, dst):
         print(f"  Error: {e}")
         return False
 
+
 def copy_file(src, dst):
     try:
         shutil.copy2(src, dst)
@@ -584,6 +672,7 @@ def copy_file(src, dst):
     except Exception as e:
         print(f"  Error: {e}")
         return False
+
 
 def zip_folder(folder_path, output_zip=None):
     if not output_zip:
@@ -595,6 +684,7 @@ def zip_folder(folder_path, output_zip=None):
                 zf.write(fp, os.path.relpath(fp, folder_path))
     print(f"  Zipped to: {output_zip}")
     return output_zip
+
 
 def find_files(pattern, search_dir=None):
     if not search_dir:
@@ -610,9 +700,11 @@ def find_files(pattern, search_dir=None):
     print(f"  Found {len(results)} file(s).")
     return results
 
+
 def open_file_location(path):
     subprocess.Popen(f'explorer /select,"{path}"')
     return True
+
 
 def read_file(path):
     try:
@@ -623,6 +715,7 @@ def read_file(path):
     except Exception as e:
         print(f"  Error: {e}")
         return None
+
 
 def write_file(path, content):
     try:
@@ -635,6 +728,7 @@ def write_file(path, content):
         print(f"  Error: {e}")
         return False
 
+
 def append_file(path, content):
     try:
         with open(path, "a", encoding="utf-8") as f:
@@ -645,11 +739,13 @@ def append_file(path, content):
         print(f"  Error: {e}")
         return False
 
+
 def disk_usage(drive="C:"):
     total, used, free = shutil.disk_usage(drive)
     gb = 1024 ** 3
     print(f"  {drive} — Total: {total/gb:.1f}GB | Used: {used/gb:.1f}GB | Free: {free/gb:.1f}GB")
     return True
+
 
 def battery_status():
     try:
@@ -664,6 +760,7 @@ def battery_status():
     except Exception:
         run_system_command("WMIC Path Win32_Battery Get EstimatedChargeRemaining")
     return True
+
 
 def top_processes(count=10):
     try:
@@ -683,10 +780,12 @@ def top_processes(count=10):
         run_system_command("tasklist /FO TABLE /NH")
     return True
 
+
 def set_wallpaper(path):
     ctypes.windll.user32.SystemParametersInfoW(20, 0, path, 3)
     print(f"  Wallpaper set: {path}")
     return True
+
 
 def notify(title, message, duration=5):
     try:
@@ -696,12 +795,14 @@ def notify(title, message, duration=5):
         run_system_command(f"powershell -c \"New-BurntToastNotification -Text '{title}', '{message}'\"")
     return True
 
+
 def speak(text):
     run_system_command(
         f"powershell -c \"Add-Type -AssemblyName System.Speech; "
         f"$s=New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Speak('{text}')\""
     )
     return True
+
 
 def set_reminder(message, minutes):
     import threading
@@ -712,6 +813,7 @@ def set_reminder(message, minutes):
     threading.Thread(target=_remind, daemon=True).start()
     print(f"  Reminder set for {minutes} minute(s): {message}")
     return True
+
 
 def download_file(url, save_path=None):
     if not save_path:
@@ -728,6 +830,7 @@ def download_file(url, save_path=None):
     print(f"  Downloaded: {save_path}")
     return save_path
 
+
 def get_clipboard():
     try:
         import pyperclip
@@ -736,6 +839,7 @@ def get_clipboard():
         return content
     except Exception:
         return ""
+
 
 def set_clipboard(text):
     try:
@@ -746,6 +850,7 @@ def set_clipboard(text):
     except Exception:
         return False
 
+
 def open_calendar(date=None):
     if date:
         open_url(f"https://calendar.google.com/calendar/r/day/{date.replace('-', '/')}", browser="zen")
@@ -753,18 +858,22 @@ def open_calendar(date=None):
         open_url("https://calendar.google.com", browser="zen")
     return True
 
+
 def open_gmail():
     open_url("https://mail.google.com", browser="zen")
     return True
+
 
 def translate_text(text, target_lang="en"):
     import urllib.parse
     open_url(f"https://translate.google.com/?sl=auto&tl={target_lang}&text={urllib.parse.quote(text)}", browser="zen")
     return True
 
+
 def check_weather(city=""):
     open_url(f"https://wttr.in/{city}", browser="zen")
     return True
+
 
 def run_python(code):
     try:
@@ -774,6 +883,7 @@ def run_python(code):
         print(f"  Python error: {e}")
         return False
 
+
 def generate_password(length=16):
     import secrets, string
     chars = string.ascii_letters + string.digits + "!@#$%^&*"
@@ -782,9 +892,11 @@ def generate_password(length=16):
     set_clipboard(pwd)
     return pwd
 
+
 def get_system_info():
     run_system_command('systeminfo | findstr /C:"OS" /C:"RAM" /C:"Processor"')
     return True
+
 
 def enable_dark_mode():
     run_system_command(
@@ -794,6 +906,7 @@ def enable_dark_mode():
     print("  Dark mode enabled.")
     return True
 
+
 def enable_light_mode():
     run_system_command(
         "reg add HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize "
@@ -802,9 +915,11 @@ def enable_light_mode():
     print("  Light mode enabled.")
     return True
 
+
 def check_startup_programs():
     run_system_command("reg query HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run")
     return True
+
 
 def install_package(package, manager="pip"):
     cmds = {
@@ -817,9 +932,11 @@ def install_package(package, manager="pip"):
     print(f"  Installed: {package} via {manager}")
     return True
 
+
 def open_hosts_file():
     subprocess.Popen(["notepad", r"C:\Windows\System32\drivers\etc\hosts"])
     return True
+
 
 def get_local_ip():
     try:
@@ -833,6 +950,7 @@ def get_local_ip():
         run_system_command("ipconfig | findstr IPv4")
         return None
 
+
 def scan_ports(host="localhost", start=1, end=1024):
     print(f"  Scanning {host} ports {start}-{end}...")
     open_ports = []
@@ -845,6 +963,7 @@ def scan_ports(host="localhost", start=1, end=1024):
         s.close()
     print(f"  Scan complete. {len(open_ports)} open port(s).")
     return open_ports
+
 
 def focus_window(title_contains):
     import ctypes
@@ -863,30 +982,37 @@ def focus_window(title_contains):
         print(f"  Focused: {found[0]}")
     return bool(found)
 
+
 def close_window(title_contains):
     run_system_command(f'taskkill /FI "WINDOWTITLE eq *{title_contains}*" /F')
     return True
+
 
 def minimize_all():
     import pyautogui
     pyautogui.hotkey("win", "d")
     return True
 
+
 def maximize_window():
     import pyautogui
     pyautogui.hotkey("win", "up")
     return True
 
+
 def git_status(repo_path="."):
     return run_system_command(f'cd /d "{repo_path}" && git status')
+
 
 def git_commit(message, repo_path="."):
     run_system_command(f'cd /d "{repo_path}" && git add -A && git commit -m "{message}"')
     return True
 
+
 def git_push(repo_path="."):
     run_system_command(f'cd /d "{repo_path}" && git push')
     return True
+
 
 def create_shortcut(target, shortcut_name=None, location="Desktop"):
     try:
@@ -988,7 +1114,13 @@ ACTIONS = {
     "set_browser":        set_browser,
 }
 
+
 def execute_action(action_name, **kwargs):
+    if action_requires_confirmation(action_name):
+        confirm = kwargs.pop("confirm", False)
+        if not confirm:
+            print(f"  Action '{action_name}' requires explicit confirmation; pass confirm=True to run it.")
+            return False
     func = ACTIONS.get(action_name)
     if not func:
         return False
@@ -996,7 +1128,7 @@ def execute_action(action_name, **kwargs):
         sig = inspect.signature(func)
         valid = set(sig.parameters.keys())
         has_var = any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values())
-        filtered = kwargs if has_var else {k: v for k, v in kwargs.items() if k in valid}
+        filtered = kwargs if has_var else {k: _sanitize_action_value(v) for k, v in kwargs.items() if k in valid}
         return func(**filtered)
     except Exception as e:
         print(f"  Action error ({action_name}): {e}")

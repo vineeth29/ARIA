@@ -1,219 +1,203 @@
-import os, time, threading, datetime, json, hashlib, queue
+import os, json, datetime, sys, time, re, threading
 
-SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR    = os.path.join(SCRIPT_DIR, "data")
-STATE_FILE  = os.path.join(DATA_DIR, "screen_watcher_state.json")
-os.makedirs(DATA_DIR, exist_ok=True)
+MEMORY_FILE = os.path.expanduser("~/aria_memory.json")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+MAX_HISTORY = 20
 
-_running      = False
-_thread       = None
-_alert_queue  = queue.Queue()
-_last_hash    = None
-_last_screen  = None
-_interval     = 30
-_vision_mod   = None
-_config       = {}
-_last_alert_time = {}
-_ALERT_COOLDOWN  = 120
+try:
+    from automation import action_requires_confirmation
+except Exception:
+    def action_requires_confirmation(action_name):
+        return False
 
-WATCH_PATTERNS = {
-    "error": {
-        "keywords": ["error", "exception", "failed", "crash", "not responding",
-                     "access denied", "blue screen", "critical", "fatal", "traceback"],
-        "action":   "auto_fix",
-        "message":  "Error detected on screen",
-        "cooldown": 60,
-    },
-    "battery_low": {
-        "keywords": ["battery low", "battery critical", "plug in", "10% battery",
-                     "15% battery", "20% battery"],
-        "action":   "notify",
-        "message":  "Low battery warning on screen",
-        "cooldown": 300,
-    },
-    "download_done": {
-        "keywords": ["download complete", "download finished", "saved to",
-                     "successfully downloaded"],
-        "action":   "notify",
-        "message":  "Download completed",
-        "cooldown": 30,
-    },
-    "update_available": {
-        "keywords": ["update available", "new version", "restart to update",
-                     "update now"],
-        "action":   "notify",
-        "message":  "Software update available",
-        "cooldown": 600,
-    },
-    "meeting": {
-        "keywords": ["join now", "meeting starts", "call starting",
-                     "zoom meeting", "teams meeting"],
-        "action":   "notify",
-        "message":  "Meeting notification detected",
-        "cooldown": 120,
-    },
-}
 
-def _take_screenshot():
+def _safe_prompt(ui, message):
     try:
-        import pyautogui
-        from PIL import Image
-        import tempfile
-        tmp = tempfile.NamedTemporaryFile(suffix=".png", delete=False)
-        tmp.close()
-        pyautogui.screenshot().save(tmp.name)
-        return tmp.name
+        return ui.get_input(message)
     except Exception:
-        return None
+        return ""
 
-def _screenshot_hash(path):
-    try:
-        with open(path, "rb") as f:
-            return hashlib.md5(f.read(8192)).hexdigest()
-    except Exception:
-        return None
 
-def _screen_changed(path):
-    global _last_hash
-    h = _screenshot_hash(path)
-    if h and h != _last_hash:
-        _last_hash = h
-        return True
-    return False
+AUTOMATION_BLOCK = """
+## HOW TO EXECUTE TASKS — READ THIS CAREFULLY
 
-def _analyse_screenshot(path, question="What is on this screen? Any errors, warnings, or important notifications?"):
-    if not _vision_mod or not _config:
-        return None
-    try:
-        reply, _ = _vision_mod.analyze_image(question, path, _config)
-        return reply
-    except Exception:
-        return None
+When the user asks you to DO anything on the computer, you MUST write an ACTION block.
+Do NOT just say "Opening YouTube" — actually open it with an ACTION.
+Do NOT describe what you will do — DO IT with an ACTION block.
 
-def _check_patterns(text):
-    if not text:
-        return []
-    text_lower = text.lower()
-    detected   = []
-    now        = time.time()
-    for pattern_name, pattern in WATCH_PATTERNS.items():
-        if any(kw in text_lower for kw in pattern["keywords"]):
-            last = _last_alert_time.get(pattern_name, 0)
-            if now - last >= pattern.get("cooldown", _ALERT_COOLDOWN):
-                detected.append((pattern_name, pattern))
-                _last_alert_time[pattern_name] = now
-    return detected
+ACTION SYNTAX (copy exactly):
+[ACTION: function_name(key="value")]
 
-def _load_state():
-    if os.path.exists(STATE_FILE):
+COMMON EXAMPLES — memorise these:
+
+User: open youtube / open yt
+You write: [ACTION: open_youtube()]
+
+User: open youtube and search lofi
+You write: [ACTION: open_youtube(query="lofi music")]
+
+User: open chrome / open browser
+You write: [ACTION: open_app(name="chrome")]
+
+User: open spotify
+You write: [ACTION: open_app(name="spotify")]
+
+User: open google / go to google.com
+You write: [ACTION: open_url(url="https://www.google.com")]
+
+User: search for python tutorials
+You write: [ACTION: search_google(query="python tutorials")]
+
+User: take a screenshot
+You write: [ACTION: screenshot(filename="screenshot.png")]
+
+User: set volume to 50
+You write: [ACTION: set_volume(level="50")]
+
+User: lock the screen
+You write: [ACTION: lock_screen()]
+
+User: clear temp files
+You write: [ACTION: clear_temp()]
+
+User: what processes are running / what's eating my RAM
+You write: [ACTION: run_command(cmd="tasklist /FO TABLE /NH")]
+
+User: check my CPU
+You write: [ACTION: run_command(cmd="wmic cpu get loadpercentage")]
+
+User: send whatsapp to John saying hi
+You write: [ACTION: send_whatsapp(contact="John" message="hi")]
+
+User: open notepad
+You write: [ACTION: open_app(name="notepad")]
+
+User: shutdown my pc
+You write: [ACTION: shutdown(delay="0")]
+
+User: check internet
+You write: [ACTION: check_internet()]
+
+User: get my wifi password
+You write: [ACTION: wifi_password()]
+
+ALL AVAILABLE ACTIONS:
+open_url, open_browser, open_youtube, open_app, open_gmail, open_calendar,
+search_google, send_whatsapp, browser_click, browser_type, browser_press,
+browser_wait, browser_text, close_browser, type_text, press_key, hotkey,
+mouse_click, mouse_move, mouse_scroll, screenshot, run_command, wait,
+set_volume, mute, lock_screen, sleep_pc, shutdown, restart, cancel_shutdown,
+empty_recycle_bin, clear_temp, kill_process, wifi_password, check_internet,
+public_ip, local_ip, flush_dns, reset_network, ping, scan_ports,
+create_folder, delete_file, rename_file, copy_file, zip_folder, find_files,
+read_file, write_file, append_file, disk_usage, battery_status, top_processes,
+set_wallpaper, notify, speak, set_reminder, download_file, get_clipboard,
+set_clipboard, translate, weather, run_python, generate_password, system_info,
+dark_mode, light_mode, startup_programs, install_package, focus_window,
+close_window, minimize_all, maximize_window, git_status, git_commit, git_push,
+create_shortcut.
+
+STRICT RULES:
+1. ALWAYS use [ACTION:] when user asks to open, run, search, control anything.
+2. Never say "Opening X" without an ACTION block. That does nothing.
+3. Keep your text reply SHORT — 1-3 lines max. Just confirm what you did.
+4. After the action, say: Done. Is this what you wanted?
+5. Never invent system data. Use run_command to get real values.
+"""
+
+
+def load_memory():
+    if os.path.exists(MEMORY_FILE):
         try:
-            with open(STATE_FILE) as f:
+            with open(MEMORY_FILE, "r") as f:
                 return json.load(f)
         except Exception:
-            pass
-    return {"enabled": False, "alerts_sent": 0, "last_run": None}
+            return {}
+    return {}
 
-def _save_state(state):
+
+def save_memory(mem):
     try:
-        with open(STATE_FILE, "w") as f:
-            json.dump(state, f, indent=2)
-    except Exception:
+        with open(MEMORY_FILE, "w") as f:
+            json.dump(mem, f, indent=2)
+    except IOError:
         pass
 
-def _watcher_loop():
-    global _running, _last_screen
-    state = _load_state()
-    state["enabled"] = True
-    _save_state(state)
-    while _running:
-        try:
-            path = _take_screenshot()
-            if not path:
-                time.sleep(_interval)
-                continue
-            if _screen_changed(path):
-                analysis = _analyse_screenshot(path)
-                if analysis:
-                    detected = _check_patterns(analysis)
-                    for pattern_name, pattern in detected:
-                        alert = {
-                            "type":      pattern_name,
-                            "message":   pattern["message"],
-                            "analysis":  analysis[:300],
-                            "action":    pattern["action"],
-                            "time":      datetime.datetime.now().isoformat(),
-                        }
-                        _alert_queue.put(alert)
-                        state["alerts_sent"] = state.get("alerts_sent", 0) + 1
-                _last_screen = analysis
-            try:
-                os.unlink(path)
-            except Exception:
-                pass
-            state["last_run"] = datetime.datetime.now().isoformat()
-            _save_state(state)
-        except Exception:
-            pass
-        time.sleep(_interval)
-    state["enabled"] = False
-    _save_state(state)
 
-def start(vision_mod=None, config=None, interval=30):
-    global _running, _thread, _vision_mod, _config, _interval
-    if _running:
-        return False, "Screen watcher already running"
-    _vision_mod = vision_mod
-    _config     = config or {}
-    _interval   = max(10, interval)
-    _running    = True
-    _thread     = threading.Thread(target=_watcher_loop, daemon=True)
-    _thread.start()
-    return True, f"Screen watcher started (checking every {_interval}s)"
-
-def stop():
-    global _running
-    _running = False
-    return True, "Screen watcher stopped"
-
-def is_running():
-    return _running
-
-def get_pending_alerts():
-    alerts = []
-    while not _alert_queue.empty():
-        try:
-            alerts.append(_alert_queue.get_nowait())
-        except queue.Empty:
-            break
-    return alerts
-
-def get_last_screen_content():
-    return _last_screen
-
-def get_status():
-    state = _load_state()
-    lines = [
-        f"Screen watcher : {'RUNNING' if _running else 'STOPPED'}",
-        f"Check interval : every {_interval}s",
-        f"Alerts sent    : {state.get('alerts_sent', 0)}",
-        f"Last checked   : {state.get('last_run', 'never')[:16] if state.get('last_run') else 'never'}",
-        f"Watching for   : {', '.join(WATCH_PATTERNS.keys())}",
-    ]
-    return "\n".join(lines)
-
-def read_screen_now(vision_mod, config, question=None):
-    path = _take_screenshot()
-    if not path:
-        return "Could not take screenshot"
-    q      = question or "Describe what is on this screen in detail. Note any errors, text, or important elements."
-    result = None
+def get_real_system_status():
+    parts = []
     try:
-        reply, _ = vision_mod.analyze_image(q, path, config)
-        result   = reply
-    except Exception as e:
-        result = f"Could not analyse: {e}"
-    try:
-        os.unlink(path)
+        import psutil
+        cpu = psutil.cpu_percent(interval=0.3)
+        ram = psutil.virtual_memory()
+        bat = psutil.sensors_battery()
+        free = ram.available / (1024**3)
+        tot = ram.total / (1024**3)
+        parts.append(f"CPU {cpu:.0f}%")
+        parts.append(f"RAM {free:.1f}/{tot:.1f}GB")
+        if bat:
+            parts.append(f"Battery {int(bat.percent)}%")
     except Exception:
         pass
-    return result
+    return "  ".join(parts) if parts else "System status unavailable"
+
+
+def trim_history(history):
+    if len(history) > MAX_HISTORY:
+        return history[-MAX_HISTORY:]
+    return history
+
+
+def parse_and_execute_actions(text, ui):
+    try:
+        from automation import execute_action
+    except ImportError:
+        return False
+
+    pattern = r'\[ACTION:\s*(\w+)\(([^)]*)\)\]'
+    matches = list(re.finditer(pattern, text))
+    if not matches:
+        return False
+
+    for match in matches:
+        func_name = match.group(1)
+        args_str = match.group(2).strip()
+        kwargs = {}
+        if args_str:
+            for k, v in re.findall(r'(\w+)\s*=\s*"([^"]*)"', args_str):
+                try:
+                    kwargs[k] = int(v)
+                except ValueError:
+                    try:
+                        kwargs[k] = float(v)
+                    except ValueError:
+                        kwargs[k] = v
+            if not kwargs:
+                val = args_str.strip('"').strip("'")
+                param_map = {
+                    "open_browser": "url", "open_url": "url", "browser_wait": "seconds",
+                    "browser_click": "text", "browser_type": "text", "browser_press": "key",
+                    "send_whatsapp": "contact", "search_google": "query", "open_youtube": "query",
+                    "open_app": "name", "type_text": "text", "press_key": "key",
+                    "screenshot": "filename", "run_command": "cmd", "wait": "seconds",
+                }
+                p = param_map.get(func_name, "text")
+                try:
+                    kwargs[p] = int(val)
+                except ValueError:
+                    kwargs[p] = val
+
+        if action_requires_confirmation(func_name):
+            if "confirm" not in kwargs:
+                confirm = _safe_prompt(ui, f"This action is destructive: {func_name}. Type 'yes' to continue: ")
+                if str(confirm).lower() not in {"yes", "y", "confirm", "ok", "sure"}:
+                    ui.print_system(f"Cancelled destructive action: {func_name}", "warn")
+                    continue
+                kwargs["confirm"] = True
+
+        try:
+            execute_action(func_name, **kwargs)
+        except Exception as e:
+            ui.print_system(f"Action failed: {func_name} — {str(e)[:60]}", "error")
+
+    return True
